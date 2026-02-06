@@ -1,0 +1,85 @@
+@startuml
+
+class Character {
+    -name: String
+    -color: String
+    -hp: int
+    -speed: int
+    -ultimateRecovery: double
+    -ability: Ability
+    -ultimate: Ultimate
+    -sounds: Map<String, Sound>
+    -basicMoves: List<BasicMove>
+    +moveForward(): void
+    +moveBackward(): void
+    +moveDown(): void
+}
+
+abstract class Move {
+    -name: String
+    -description: int
+    -sounds: List<Sound>
+    +hit(Character): void
+}
+
+class Ability {
+    -duration: int
+}
+
+class Ultimate {
+    -duration: int
+}
+
+class BasicMove {
+}
+
+class Sound {
+    -name: String
+    -source: String
+    +play(): void
+}
+
+class Player {
+    -id: int
+    -color: String
+    -character: Character
+    -inputDevice: ?
+}
+
+class CharacterManager {
+    -characters: List<Character>
+    +getSidon(): Character
+    +getQuan(): Character
+    +getIvan(): Character
+    +getYasser(): Character
+}
+
+class Map {
+    -name: String
+    -image: String
+}
+
+class MapManager {
+    -maps: List<Map>
+}
+
+class Match {
+    -players: List<Player>
+    -map: Map
+}
+
+Move <|-- Ability
+Move <|-- Ultimate
+Move <|-- BasicMove
+Character *-- BasicMove
+Character *-- Ultimate
+Character *-- Ability
+Move o-- Sound
+CharacterManager o-- Character
+MapManager o-- Map
+Character o-- Sound
+Player o-- Character
+Match o-- Map
+Match o-- Player
+
+@enduml
