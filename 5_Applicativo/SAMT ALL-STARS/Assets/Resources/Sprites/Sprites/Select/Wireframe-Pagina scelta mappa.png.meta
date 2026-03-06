@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wireframe-Pagina scelta mappa_0: 479587915707500731
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Icon_Map_Yasser_Curved_0: 4777756754643546187
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

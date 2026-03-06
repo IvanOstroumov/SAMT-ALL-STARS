@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Yasser_Background_0: 5785779024571618199
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
