@@ -1,0 +1,1655 @@
+fileFormatVersion: 2
+guid: 0eec0aa8406afb94cab155627f70d8d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2081741804077996915
+    second: keyboard pixaleted_0
+  - first:
+      213: 45580966398747311
+    second: keyboard pixaleted_1
+  - first:
+      213: -2490356887068605224
+    second: keyboard pixaleted_2
+  - first:
+      213: -4493666282161054161
+    second: keyboard pixaleted_3
+  - first:
+      213: -6799809912856596253
+    second: keyboard pixaleted_4
+  - first:
+      213: 5880403992680314998
+    second: keyboard pixaleted_5
+  - first:
+      213: 8177271982221446028
+    second: keyboard pixaleted_6
+  - first:
+      213: 6968034585761938735
+    second: keyboard pixaleted_7
+  - first:
+      213: -5274077479689001648
+    second: keyboard pixaleted_8
+  - first:
+      213: 971071576666645333
+    second: keyboard pixaleted_9
+  - first:
+      213: -8224670709200209275
+    second: keyboard pixaleted_10
+  - first:
+      213: -9187463212967817226
+    second: keyboard pixaleted_11
+  - first:
+      213: -3388372981811713251
+    second: keyboard pixaleted_12
+  - first:
+      213: -3406170484786443315
+    second: keyboard pixaleted_13
+  - first:
+      213: 4287880484524732096
+    second: keyboard pixaleted_14
+  - first:
+      213: 1417872572242880273
+    second: keyboard pixaleted_15
+  - first:
+      213: -8602621273888770809
+    second: keyboard pixaleted_16
+  - first:
+      213: 8880025402235058258
+    second: keyboard pixaleted_17
+  - first:
+      213: 5466579104045503169
+    second: keyboard pixaleted_18
+  - first:
+      213: 3205065091138283170
+    second: keyboard pixaleted_19
+  - first:
+      213: -3909756983734374659
+    second: keyboard pixaleted_20
+  - first:
+      213: -1880285061572509090
+    second: keyboard pixaleted_21
+  - first:
+      213: 1435820247421277591
+    second: keyboard pixaleted_22
+  - first:
+      213: 4850750276444774516
+    second: keyboard pixaleted_23
+  - first:
+      213: -4435360724804349048
+    second: keyboard pixaleted_24
+  - first:
+      213: -7869320451959189593
+    second: keyboard pixaleted_25
+  - first:
+      213: -2594006409591964729
+    second: keyboard pixaleted_26
+  - first:
+      213: 7976462661815469588
+    second: keyboard pixaleted_27
+  - first:
+      213: 8761733997353571527
+    second: keyboard pixaleted_28
+  - first:
+      213: 1278926618121100835
+    second: keyboard pixaleted_29
+  - first:
+      213: -1322362794220996088
+    second: keyboard pixaleted_30
+  - first:
+      213: -1590541679766535679
+    second: keyboard pixaleted_31
+  - first:
+      213: -1228521332289308373
+    second: keyboard pixaleted_32
+  - first:
+      213: 6822728155516875152
+    second: keyboard pixaleted_33
+  - first:
+      213: 9055568246013226439
+    second: keyboard pixaleted_34
+  - first:
+      213: 183586502515202231
+    second: keyboard pixaleted_35
+  - first:
+      213: 8835573531145578462
+    second: keyboard pixaleted_36
+  - first:
+      213: 7585161997540958122
+    second: keyboard pixaleted_37
+  - first:
+      213: 6115582658244375178
+    second: keyboard pixaleted_38
+  - first:
+      213: -371494605202028020
+    second: keyboard pixaleted_39
+  - first:
+      213: -6842117317525338701
+    second: keyboard pixaleted_40
+  - first:
+      213: -5705552911387372943
+    second: keyboard pixaleted_41
+  - first:
+      213: 1300698931102346602
+    second: keyboard pixaleted_42
+  - first:
+      213: 2557969713024461846
+    second: keyboard pixaleted_43
+  - first:
+      213: -8225374717566079814
+    second: keyboard pixaleted_44
+  - first:
+      213: -3651086285604753904
+    second: keyboard pixaleted_45
+  - first:
+      213: -8106939756531444920
+    second: keyboard pixaleted_46
+  - first:
+      213: 4357072272730690043
+    second: keyboard pixaleted_47
+  - first:
+      213: 3246419123564524055
+    second: keyboard pixaleted_48
+  - first:
+      213: 5149963915591412699
+    second: keyboard pixaleted_49
+  - first:
+      213: -409330229348250236
+    second: keyboard pixaleted_50
+  - first:
+      213: -2108477711675704589
+    second: keyboard pixaleted_51
+  - first:
+      213: -5379769522214648262
+    second: keyboard pixaleted_52
+  - first:
+      213: 3892233029499199210
+    second: keyboard pixaleted_53
+  - first:
+      213: 3041850226687611073
+    second: keyboard pixaleted_54
+  - first:
+      213: 6951049733999042089
+    second: keyboard pixaleted_55
+  - first:
+      213: -4402142970213514576
+    second: keyboard pixaleted_56
+  - first:
+      213: 8070714078878322887
+    second: keyboard pixaleted_57
+  - first:
+      213: 4341351316093029739
+    second: keyboard pixaleted_58
+  - first:
+      213: -9212061219803038961
+    second: keyboard pixaleted_59
+  - first:
+      213: 1301444622778580694
+    second: keyboard pixaleted_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: keyboard pixaleted_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84a9d5dbda2c13e0800000000000000
+      internalID: -2081741804077996915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 170
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa267beb5afe1a000800000000000000
+      internalID: 45580966398747311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 170
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4045e0b99707dd0800000000000000
+      internalID: -2490356887068605224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_3
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 170
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ed3a8235a43a1c0800000000000000
+      internalID: -4493666282161054161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 169
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0b00449e832a1a0800000000000000
+      internalID: -6799809912856596253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 170
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678bf7f86446b9150800000000000000
+      internalID: 5880403992680314998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_6
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 169
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b4014fa818b7170800000000000000
+      internalID: 8177271982221446028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_7
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 170
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2df9fa998e63b060800000000000000
+      internalID: 6968034585761938735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_8
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 170
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055ef39b976bec6b0800000000000000
+      internalID: -5274077479689001648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_9
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 170
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553a1ba3470f97d00800000000000000
+      internalID: 971071576666645333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 171
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58abf8fe0991cdd80800000000000000
+      internalID: -8224670709200209275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_11
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 170
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff851492e29f7080800000000000000
+      internalID: -9187463212967817226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_12
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 170
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1be494b9b41af0d0800000000000000
+      internalID: -3388372981811713251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_13
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 169
+        width: 82
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb42e1adf9dab0d0800000000000000
+      internalID: -3406170484786443315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce2d6f159c918b30800000000000000
+      internalID: 4287880484524732096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 127
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1176e4d979b4da310800000000000000
+      internalID: 1417872572242880273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_16
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 127
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70534a0b7895d9880800000000000000
+      internalID: -8602621273888770809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_17
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 127
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2587aa01e003c3b70800000000000000
+      internalID: 8880025402235058258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_18
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 127
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c294316bb03ddb40800000000000000
+      internalID: 5466579104045503169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_19
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 127
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a66d4f18bdaa7c20800000000000000
+      internalID: 3205065091138283170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 127
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfee862fcb0cdb9c0800000000000000
+      internalID: -3909756983734374659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_21
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 127
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e524f7cd2b2e7e5e0800000000000000
+      internalID: -1880285061572509090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_22
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 127
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795dbd068ee0de310800000000000000
+      internalID: 1435820247421277591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_23
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 127
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4706e911da3515340800000000000000
+      internalID: 4850750276444774516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_24
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 127
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883515b9bee6272c0800000000000000
+      internalID: -4435360724804349048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_25
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 127
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af814d0ebe8ac290800000000000000
+      internalID: -7869320451959189593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_26
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 127
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb3f230aec300cd0800000000000000
+      internalID: -2594006409591964729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_27
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 127
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4168da1a78612be60800000000000000
+      internalID: 7976462661815469588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 89
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c419b026aee79970800000000000000
+      internalID: 8761733997353571527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_29
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 84
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e56eeabf8afb110800000000000000
+      internalID: 1278926618121100835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_30
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 84
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ab34a7b0606ade0800000000000000
+      internalID: -1322362794220996088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_31
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 84
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1020011f4c24de9e0800000000000000
+      internalID: -1590541679766535679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_32
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 84
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29f7e57b5a63fee0800000000000000
+      internalID: -1228521332289308373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_33
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 84
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091b3aceb133fae50800000000000000
+      internalID: 6822728155516875152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_34
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 84
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdecee5757dbad70800000000000000
+      internalID: 9055568246013226439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_35
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 84
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b899fb83fa3c8200800000000000000
+      internalID: 183586502515202231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_36
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 84
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7a6ce40534e9a70800000000000000
+      internalID: 8835573531145578462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_37
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 84
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf983b16a8e34960800000000000000
+      internalID: 7585161997540958122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_38
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 84
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82f133a60aeed450800000000000000
+      internalID: 6115582658244375178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_39
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 84
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a85f4ff9f28daf0800000000000000
+      internalID: -371494605202028020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_40
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 84
+        width: 83
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b58a510d8aeb01a0800000000000000
+      internalID: -6842117317525338701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 107
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1725f8d3bddc1d0b0800000000000000
+      internalID: -5705552911387372943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_42
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 41
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6de51459c20d0210800000000000000
+      internalID: 1300698931102346602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_43
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 41
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ce70bb6ebbf7320800000000000000
+      internalID: 2557969713024461846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_44
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 41
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abcaef6364999dd80800000000000000
+      internalID: -8225374717566079814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_45
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 41
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e6a361e5cb45dc0800000000000000
+      internalID: -3651086285604753904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_46
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 41
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843937c6e3d5e7f80800000000000000
+      internalID: -8106939756531444920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_47
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 41
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf111d4b52e677c30800000000000000
+      internalID: 4357072272730690043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_48
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 41
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712391c1ef89d0d20800000000000000
+      internalID: 3246419123564524055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_49
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 41
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdbe7e245e8587740800000000000000
+      internalID: 5149963915591412699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_50
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 41
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d4edb3354c15af0800000000000000
+      internalID: -409330229348250236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_51
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 41
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fabdb241be2db2e0800000000000000
+      internalID: -2108477711675704589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_52
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 41
+        width: 101
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a364cee6f183755b0800000000000000
+      internalID: -5379769522214648262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee9752815df30630800000000000000
+      internalID: 3892233029499199210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_54
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c018ad2aa2d63a20800000000000000
+      internalID: 3041850226687611073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_55
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 0
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e1613a7e6177060800000000000000
+      internalID: 6951049733999042089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_56
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 206
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2c0f9ca4278e2c0800000000000000
+      internalID: -4402142970213514576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_57
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 0
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0594bb1bfe00070800000000000000
+      internalID: 8070714078878322887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_58
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d46e045049f3c30800000000000000
+      internalID: 4341351316093029739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_59
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 0
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0bfc70d02f282080800000000000000
+      internalID: -9212061219803038961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard pixaleted_60
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de3f833df8af0210800000000000000
+      internalID: 1301444622778580694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
