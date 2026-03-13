@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bf121392375c63640b2ba99c4cef52e3
+guid: 8916d5c6736178a4aaf1a09e90514418
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5791467624167363872
-    second: ChatGPT Image 6 mar 2026, 11_20_40_0
+      213: 152747939598876352
+    second: Yasser_Pugni_1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChatGPT Image 6 mar 2026, 11_20_40_0
+      name: Yasser_Pugni_1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 025dba2ae1d6f5050800000000000000
-      internalID: 5791467624167363872
+      spriteID: 0ceb6f7117bae1200800000000000000
+      internalID: 152747939598876352
       vertices: []
       indices: 
       edges: []

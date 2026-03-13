@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bf121392375c63640b2ba99c4cef52e3
+guid: 3523b5ff870fe36408b04466be8262fb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5791467624167363872
-    second: ChatGPT Image 6 mar 2026, 11_20_40_0
+      213: 2203645334776270573
+    second: tutto_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChatGPT Image 6 mar 2026, 11_20_40_0
+      name: tutto_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 025dba2ae1d6f5050800000000000000
-      internalID: 5791467624167363872
+      spriteID: dee494ea1cbe49e10800000000000000
+      internalID: 2203645334776270573
       vertices: []
       indices: 
       edges: []
