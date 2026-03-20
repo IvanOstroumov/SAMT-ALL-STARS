@@ -1,0 +1,1180 @@
+fileFormatVersion: 2
+guid: 402345dfe04069648a6fbcb60d49d1fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1843753323534219353
+    second: Yasser_Calci_2-removebg-preview_0
+  - first:
+      213: 4202244007175633603
+    second: Yasser_Calci_2-removebg-preview_1
+  - first:
+      213: -9082565858787462765
+    second: Yasser_Calci_2-removebg-preview_2
+  - first:
+      213: 2111625991029985952
+    second: Yasser_Calci_2-removebg-preview_3
+  - first:
+      213: -366227210774253457
+    second: Yasser_Calci_2-removebg-preview_4
+  - first:
+      213: 641417835553876892
+    second: Yasser_Calci_2-removebg-preview_5
+  - first:
+      213: 5489061762639219692
+    second: Yasser_Calci_2-removebg-preview_6
+  - first:
+      213: 774363266323331297
+    second: Yasser_Calci_2-removebg-preview_7
+  - first:
+      213: 4259344241649823875
+    second: Yasser_Calci_2-removebg-preview_8
+  - first:
+      213: 4978117616040981126
+    second: Yasser_Calci_2-removebg-preview_9
+  - first:
+      213: 1771434535444520729
+    second: Yasser_Calci_2-removebg-preview_10
+  - first:
+      213: -3954463659782396815
+    second: Yasser_Calci_2-removebg-preview_11
+  - first:
+      213: 8137920826996740494
+    second: Yasser_Calci_2-removebg-preview_12
+  - first:
+      213: -8517267955954336570
+    second: Yasser_Calci_2-removebg-preview_13
+  - first:
+      213: -2452366208544489569
+    second: Yasser_Calci_2-removebg-preview_14
+  - first:
+      213: 5496455125765846773
+    second: Yasser_Calci_2-removebg-preview_15
+  - first:
+      213: -7590501993940263087
+    second: Yasser_Calci_2-removebg-preview_16
+  - first:
+      213: 3355705660755527964
+    second: Yasser_Calci_2-removebg-preview_17
+  - first:
+      213: -2261962465121596175
+    second: Yasser_Calci_2-removebg-preview_18
+  - first:
+      213: -1497408797681499110
+    second: Yasser_Calci_2-removebg-preview_19
+  - first:
+      213: 5543899347197918147
+    second: Yasser_Calci_2-removebg-preview_20
+  - first:
+      213: 4087451456681162201
+    second: Yasser_Calci_2-removebg-preview_21
+  - first:
+      213: -3320489999007973124
+    second: Yasser_Calci_2-removebg-preview_22
+  - first:
+      213: 1840962576134981934
+    second: Yasser_Calci_2-removebg-preview_23
+  - first:
+      213: 7326117911063914149
+    second: Yasser_Calci_2-removebg-preview_24
+  - first:
+      213: 8995314629273328989
+    second: Yasser_Calci_2-removebg-preview_25
+  - first:
+      213: -9139785199230191076
+    second: Yasser_Calci_2-removebg-preview_26
+  - first:
+      213: 1044845584620162236
+    second: Yasser_Calci_2-removebg-preview_27
+  - first:
+      213: 7936012729061502573
+    second: Yasser_Calci_2-removebg-preview_28
+  - first:
+      213: 7244109616954512255
+    second: Yasser_Calci_2-removebg-preview_29
+  - first:
+      213: -6921340560924600032
+    second: Yasser_Calci_2-removebg-preview_30
+  - first:
+      213: -4296456512525944606
+    second: Yasser_Calci_2-removebg-preview_31
+  - first:
+      213: 3335449254594655735
+    second: Yasser_Calci_2-removebg-preview_32
+  - first:
+      213: 8609473367669716499
+    second: Yasser_Calci_2-removebg-preview_33
+  - first:
+      213: -3955215753899753165
+    second: Yasser_Calci_2-removebg-preview_34
+  - first:
+      213: -4070252523796231662
+    second: Yasser_Calci_2-removebg-preview_35
+  - first:
+      213: -3665614447949323144
+    second: Yasser_Calci_2-removebg-preview_36
+  - first:
+      213: 8345246597869334603
+    second: Yasser_Calci_2-removebg-preview_37
+  - first:
+      213: 5602071901815564065
+    second: Yasser_Calci_2-removebg-preview_38
+  - first:
+      213: -8183733014392045525
+    second: Yasser_Calci_2-removebg-preview_39
+  - first:
+      213: 23317260339985137
+    second: Yasser_Calci_2-removebg-preview_40
+  - first:
+      213: -8139667729478274049
+    second: Yasser_Calci_2-removebg-preview_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 382
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a70c41fe1ca966e0800000000000000
+      internalID: -1843753323534219353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 381
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cab73bf8ae515a30800000000000000
+      internalID: 4202244007175633603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 381
+        width: 65
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391f1e1197e34f180800000000000000
+      internalID: -9082565858787462765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 384
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a213d5a6a00e4d10800000000000000
+      internalID: 2111625991029985952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 381
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60f7baca46eaeaf0800000000000000
+      internalID: -366227210774253457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 295
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9be9c08f16c6e800800000000000000
+      internalID: 641417835553876892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 294
+        width: 88
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb4a4047901d2c40800000000000000
+      internalID: 5489061762639219692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 294
+        width: 163
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e83058b9471fba00800000000000000
+      internalID: 774363266323331297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 295
+        width: 69
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380b4a3550b3c1b30800000000000000
+      internalID: 4259344241649823875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 269
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682bc3ab893d51540800000000000000
+      internalID: 4978117616040981126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 270
+        width: 65
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f97041356659810800000000000000
+      internalID: 1771434535444520729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 273
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174aa79c04cee19c0800000000000000
+      internalID: -3954463659782396815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 268
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81d46720e3bfe070800000000000000
+      internalID: 8137920826996740494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 199
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc3684abe59cc980800000000000000
+      internalID: -8517267955954336570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 199
+        width: 84
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fb8803de177fdd0800000000000000
+      internalID: -2452366208544489569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 199
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6f52fb0d4574c40800000000000000
+      internalID: 5496455125765846773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 222
+        width: 31
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fdb4817ae19a690800000000000000
+      internalID: -7590501993940263087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 199
+        width: 85
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19c918e48cd19e20800000000000000
+      internalID: 3355705660755527964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 199
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc09235f15eb90e0800000000000000
+      internalID: -2261962465121596175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 174
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1446a2d1a2283be0800000000000000
+      internalID: -1497408797681499110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 174
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb704c5513efec40800000000000000
+      internalID: 5543899347197918147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 174
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d53220917b89b830800000000000000
+      internalID: 4087451456681162201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 176
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf084e840ff3be1d0800000000000000
+      internalID: -3320489999007973124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 173
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29405b85b96c8910800000000000000
+      internalID: 1840962576134981934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 174
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a66797bc699ba560800000000000000
+      internalID: 7326117911063914149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 172
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d16b00ff6c5dc70800000000000000
+      internalID: 8995314629273328989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 97
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1af28439c5f82180800000000000000
+      internalID: -9139785199230191076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 98
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc8b6cf589008e00800000000000000
+      internalID: 1044845584620162236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 97
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e60b0c781622e60800000000000000
+      internalID: 7936012729061502573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 97
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f739090d05f388460800000000000000
+      internalID: 7244109616954512255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 97
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02916904e6572ff90800000000000000
+      internalID: -6921340560924600032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 97
+        width: 82
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e83af1c09bef54c0800000000000000
+      internalID: -4296456512525944606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 67
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5b472dc65e94e20800000000000000
+      internalID: 3335449254594655735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 67
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316b327b96efa7770800000000000000
+      internalID: 8609473367669716499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 68
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331c6ca3a304c19c0800000000000000
+      internalID: -3955215753899753165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 70
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a0dfc05ee8387c0800000000000000
+      internalID: -4070252523796231662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 66
+        width: 52
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874e072b41f112dc0800000000000000
+      internalID: -3665614447949323144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 9
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40f905d09540d370800000000000000
+      internalID: 8345246597869334603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 6
+        width: 61
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127e9e1b6be8ebd40800000000000000
+      internalID: 5602071901815564065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 6
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b208684ce2a8d6e80800000000000000
+      internalID: -8183733014392045525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 5
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa33bbbce6d25000800000000000000
+      internalID: 23317260339985137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Calci_2-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 6
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3bcba63571a0f80800000000000000
+      internalID: -8139667729478274049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
