@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sofodp-removebg-preview_0: 4269598227754666852
+      sofodp-removebg-preview_1: 4927827954743955338
+      sofodp-removebg-preview_2: 862465406205755169
+      sofodp-removebg-preview_3: -4745388636923279605
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
