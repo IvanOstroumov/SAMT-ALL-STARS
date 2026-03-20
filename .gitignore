@@ -73,6 +73,7 @@ PlasticSCM.lock
 *.mdb.meta
 *.dll.meta
 *.so.meta
+*.meta
 
 # ========== Unity Cloud / Addressables ==========
 [Aa]ssets/AddressableAssetsData/*
