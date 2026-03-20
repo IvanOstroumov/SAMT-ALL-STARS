@@ -2,19 +2,44 @@ using UnityEngine;
 
 public class Calci : MonoBehaviour
 {
-    Animator anim;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private Animator anim;
+    private bool isGrounded;
+
     void Start()
     {
         anim = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.K))
+        // CALCIO IN AVANTI — K a terra
+        if (Input.GetKeyDown(KeyCode.K) && isGrounded)
         {
-            anim.SetBool("CalcioGiu", true);
+            anim.SetTrigger("CalcioAvanti");
+        }
+
+        // CALCIO IN GIÙ — K in aria
+        if (Input.GetKeyDown(KeyCode.K) && !isGrounded)
+        {
+            anim.SetTrigger("CalcioGiu");
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
+            anim.SetBool("isGrounded", true);
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = false;
+            anim.SetBool("isGrounded", false);
         }
     }
 }
