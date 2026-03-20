@@ -697,30 +697,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Gamepad_Settings_0: 1534751307000637647
-      Gamepad_Settings_1: -8451092013865139837
-      Gamepad_Settings_10: -5044056322165124211
-      Gamepad_Settings_11: -5294302046029554705
-      Gamepad_Settings_12: -4960456133821551638
-      Gamepad_Settings_13: -6476646844539312179
-      Gamepad_Settings_14: -7795411287777977460
-      Gamepad_Settings_15: 5892901140120622742
-      Gamepad_Settings_16: 6794101210260075246
-      Gamepad_Settings_17: 8544594988682030559
-      Gamepad_Settings_18: 4542374640374118939
-      Gamepad_Settings_19: 3597450640604074787
-      Gamepad_Settings_2: -7405010663002075181
-      Gamepad_Settings_20: 7933220219903126774
-      Gamepad_Settings_21: -2025994736683269624
-      Gamepad_Settings_22: -3666215497064085248
-      Gamepad_Settings_3: -2527486500540088325
-      Gamepad_Settings_4: 7142593485918175044
-      Gamepad_Settings_5: 5161459113408098002
-      Gamepad_Settings_6: 1363558871297862836
-      Gamepad_Settings_7: 4146445534924880621
-      Gamepad_Settings_8: -1699893972425931071
-      Gamepad_Settings_9: -1052021319146573968
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -572,25 +572,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Sidon_0: -3053155983245178074
-      Sidon_1: 7844835833592654068
-      Sidon_10: -8638105638244165500
-      Sidon_11: -4403174264570457577
-      Sidon_12: 1204338436735347919
-      Sidon_13: 2849173430461725515
-      Sidon_14: 5496141962266094785
-      Sidon_15: -9187402687506775650
-      Sidon_16: 963654642678956663
-      Sidon_17: -6602848950480869179
-      Sidon_2: 2317506635853083699
-      Sidon_3: -9032852330145889501
-      Sidon_4: -561765044000038630
-      Sidon_5: 6373750080673324171
-      Sidon_6: 4450858885237594206
-      Sidon_7: -6291856711639742254
-      Sidon_8: 3316757251570121379
-      Sidon_9: 4267979640460391126
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
