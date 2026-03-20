@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: e85144c545d65e34e87125d63b12fdc4
+=======
+guid: eec122e15f88a0f44922aa339b60ca30
+>>>>>>> Stashed changes
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -147,8 +151,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< Updated upstream
     nameFileIdTable:
+<<<<<<<< Updated upstream:5_Applicativo/SAMT ALL-STARS/Assets/Resources/Sprites/Title.png.meta
       Title_0: -7352339073622421304
+========
+      Yasser_Movimenti_1_0: -818097933005336802
+>>>>>>>> Stashed changes:5_Applicativo/SAMT ALL-STARS/Assets/Resources/Sprites/Sprites/Player/Yasser/Yasser_Movimenti_1.png.meta
+=======
+    nameFileIdTable: {}
+>>>>>>> Stashed changes
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

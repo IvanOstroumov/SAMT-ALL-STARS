@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:5_Applicativo/SAMT ALL-STARS/Assets/Resources/Sprites/Main Menu.meta
 guid: 84ad333f197680f4dba2788816fff652
+========
+guid: 93a60221f9122ff40b0b8e6363392040
+>>>>>>>> Stashed changes:5_Applicativo/SAMT ALL-STARS/Assets/Resources/Scripts.meta
+=======
+guid: cf698e41c2beb5d48976cb023b30c778
+>>>>>>> Stashed changes
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
