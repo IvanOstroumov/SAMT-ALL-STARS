@@ -1,0 +1,1586 @@
+fileFormatVersion: 2
+guid: 6bef7fd639f97c94ca9ac44222920816
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7343396054571014412
+    second: Yasser_Movimenti_1-removebg-preview_0
+  - first:
+      213: 1279635882438206984
+    second: Yasser_Movimenti_1-removebg-preview_1
+  - first:
+      213: -1098630351461178405
+    second: Yasser_Movimenti_1-removebg-preview_2
+  - first:
+      213: -5208877311432336641
+    second: Yasser_Movimenti_1-removebg-preview_3
+  - first:
+      213: -5601571063717336102
+    second: Yasser_Movimenti_1-removebg-preview_4
+  - first:
+      213: -5783729853932832868
+    second: Yasser_Movimenti_1-removebg-preview_5
+  - first:
+      213: -4499868100129498501
+    second: Yasser_Movimenti_1-removebg-preview_6
+  - first:
+      213: 2039540037920141275
+    second: Yasser_Movimenti_1-removebg-preview_7
+  - first:
+      213: 4038264566790336888
+    second: Yasser_Movimenti_1-removebg-preview_8
+  - first:
+      213: -2818834313522847881
+    second: Yasser_Movimenti_1-removebg-preview_9
+  - first:
+      213: -698861374362149621
+    second: Yasser_Movimenti_1-removebg-preview_10
+  - first:
+      213: 4212595776350361979
+    second: Yasser_Movimenti_1-removebg-preview_11
+  - first:
+      213: -1609176985183861429
+    second: Yasser_Movimenti_1-removebg-preview_12
+  - first:
+      213: 2286844922882741090
+    second: Yasser_Movimenti_1-removebg-preview_13
+  - first:
+      213: -5798267813892155543
+    second: Yasser_Movimenti_1-removebg-preview_14
+  - first:
+      213: -3912297439608697362
+    second: Yasser_Movimenti_1-removebg-preview_15
+  - first:
+      213: 6551825574727428017
+    second: Yasser_Movimenti_1-removebg-preview_16
+  - first:
+      213: 8875574469024809085
+    second: Yasser_Movimenti_1-removebg-preview_17
+  - first:
+      213: 5171911397142408528
+    second: Yasser_Movimenti_1-removebg-preview_18
+  - first:
+      213: 1481490626848371751
+    second: Yasser_Movimenti_1-removebg-preview_19
+  - first:
+      213: -7080157102059338907
+    second: Yasser_Movimenti_1-removebg-preview_20
+  - first:
+      213: 6963254679692010656
+    second: Yasser_Movimenti_1-removebg-preview_21
+  - first:
+      213: 3410502800516952444
+    second: Yasser_Movimenti_1-removebg-preview_22
+  - first:
+      213: 864622681539217174
+    second: Yasser_Movimenti_1-removebg-preview_23
+  - first:
+      213: -6437951056592932494
+    second: Yasser_Movimenti_1-removebg-preview_24
+  - first:
+      213: 9136436715714244999
+    second: Yasser_Movimenti_1-removebg-preview_25
+  - first:
+      213: -3970758791251288679
+    second: Yasser_Movimenti_1-removebg-preview_26
+  - first:
+      213: 7814443224310110483
+    second: Yasser_Movimenti_1-removebg-preview_27
+  - first:
+      213: -2957098483523551966
+    second: Yasser_Movimenti_1-removebg-preview_28
+  - first:
+      213: -3873567793108373464
+    second: Yasser_Movimenti_1-removebg-preview_29
+  - first:
+      213: 6238736212391024349
+    second: Yasser_Movimenti_1-removebg-preview_30
+  - first:
+      213: 6173708037645865747
+    second: Yasser_Movimenti_1-removebg-preview_31
+  - first:
+      213: 8166290829347953096
+    second: Yasser_Movimenti_1-removebg-preview_32
+  - first:
+      213: -1852450882038840520
+    second: Yasser_Movimenti_1-removebg-preview_33
+  - first:
+      213: -2029840540335743646
+    second: Yasser_Movimenti_1-removebg-preview_34
+  - first:
+      213: 1109650151479212871
+    second: Yasser_Movimenti_1-removebg-preview_35
+  - first:
+      213: 8817858044175089146
+    second: Yasser_Movimenti_1-removebg-preview_36
+  - first:
+      213: -6872619889003313276
+    second: Yasser_Movimenti_1-removebg-preview_37
+  - first:
+      213: 3464284543922760725
+    second: Yasser_Movimenti_1-removebg-preview_38
+  - first:
+      213: -8744893801446438197
+    second: Yasser_Movimenti_1-removebg-preview_39
+  - first:
+      213: -3787818976455845284
+    second: Yasser_Movimenti_1-removebg-preview_40
+  - first:
+      213: -8997988801775616930
+    second: Yasser_Movimenti_1-removebg-preview_41
+  - first:
+      213: -199312539419059875
+    second: Yasser_Movimenti_1-removebg-preview_42
+  - first:
+      213: 8508208018010371918
+    second: Yasser_Movimenti_1-removebg-preview_43
+  - first:
+      213: -7023340944451711035
+    second: Yasser_Movimenti_1-removebg-preview_44
+  - first:
+      213: 8290565237680462329
+    second: Yasser_Movimenti_1-removebg-preview_45
+  - first:
+      213: 8900175754897790209
+    second: Yasser_Movimenti_1-removebg-preview_46
+  - first:
+      213: -2292708472392083070
+    second: Yasser_Movimenti_1-removebg-preview_47
+  - first:
+      213: 1173255613239808304
+    second: Yasser_Movimenti_1-removebg-preview_48
+  - first:
+      213: 5654717831314137569
+    second: Yasser_Movimenti_1-removebg-preview_49
+  - first:
+      213: -3250547396312937537
+    second: Yasser_Movimenti_1-removebg-preview_50
+  - first:
+      213: -2434201110575129122
+    second: Yasser_Movimenti_1-removebg-preview_51
+  - first:
+      213: -1852529927414259845
+    second: Yasser_Movimenti_1-removebg-preview_52
+  - first:
+      213: 8240332346000706199
+    second: Yasser_Movimenti_1-removebg-preview_53
+  - first:
+      213: 8489626449211093544
+    second: Yasser_Movimenti_1-removebg-preview_54
+  - first:
+      213: -8665080431769020801
+    second: Yasser_Movimenti_1-removebg-preview_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 384
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09d5bdfdcbf8e560800000000000000
+      internalID: 7343396054571014412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 386
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806a2962e0e22c110800000000000000
+      internalID: 1279635882438206984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 382
+        width: 46
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3a1b12481e0c0f0800000000000000
+      internalID: -1098630351461178405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 308
+        width: 36
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffadb7ddea956b7b0800000000000000
+      internalID: -5208877311432336641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 308
+        width: 37
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb6503cbc83342b0800000000000000
+      internalID: -5601571063717336102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 307
+        width: 41
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97f28367501cbfa0800000000000000
+      internalID: -5783729853932832868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 307
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7a5ba3edc14d81c0800000000000000
+      internalID: -4499868100129498501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 308
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdfaa69cbd6ed4c10800000000000000
+      internalID: 2039540037920141275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 307
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871b5945a3cca0830800000000000000
+      internalID: 4038264566790336888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 307
+        width: 43
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fd9cd602d71e8d0800000000000000
+      internalID: -2818834313522847881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 307
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d17e168452d46f0800000000000000
+      internalID: -698861374362149621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 307
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b799caf0a85267a30800000000000000
+      internalID: 4212595776350361979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 307
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45c169ce0e0ba9e0800000000000000
+      internalID: -1609176985183861429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 281
+        width: 38
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263d4d457518cbf10800000000000000
+      internalID: 2286844922882741090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 281
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9679060d42a688fa0800000000000000
+      internalID: -5798267813892155543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 279
+        width: 47
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed0478f43ab4b9c0800000000000000
+      internalID: -3912297439608697362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 281
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7a2fba5a2ccea50800000000000000
+      internalID: 6551825574727428017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 282
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7000cb64ff5c2b70800000000000000
+      internalID: 8875574469024809085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 279
+        width: 47
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05da774830256c740800000000000000
+      internalID: 5171911397142408528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 204
+        width: 43
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7243e5730ef4f8410800000000000000
+      internalID: 1481490626848371751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 205
+        width: 42
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5634bc1c0aa3ebd90800000000000000
+      internalID: -7080157102059338907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 205
+        width: 43
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a46e9ffc3372a060800000000000000
+      internalID: 6963254679692010656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 206
+        width: 43
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71b94a3a3a845f20800000000000000
+      internalID: 3410502800516952444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 205
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61704e57fb1cffb00800000000000000
+      internalID: 864622681539217174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 205
+        width: 45
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2717d6eaf9dc7a6a0800000000000000
+      internalID: -6437951056592932494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 206
+        width: 43
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781fbf839c42bce70800000000000000
+      internalID: 9136436715714244999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 206
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d15b6dae705e8c0800000000000000
+      internalID: -3970758791251288679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 209
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3195676b5ba727c60800000000000000
+      internalID: 7814443224310110483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 206
+        width: 96
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d7bbbb89646f6d0800000000000000
+      internalID: -2957098483523551966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 178
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820b16e7d925e3ac0800000000000000
+      internalID: -3873567793108373464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 179
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6deeae781749650800000000000000
+      internalID: 6238736212391024349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 176
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3131bd220ca6da550800000000000000
+      internalID: 6173708037645865747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 178
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c990df0e3e745170800000000000000
+      internalID: 8166290829347953096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 180
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833473cccb5ca46e0800000000000000
+      internalID: -1852450882038840520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 177
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26dd99a78ce84d3e0800000000000000
+      internalID: -2029840540335743646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 104
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b70effee4466f00800000000000000
+      internalID: 1109650151479212871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 104
+        width: 50
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd70e21c235f5a70800000000000000
+      internalID: 8817858044175089146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 108
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4874ca7af9c8f90a0800000000000000
+      internalID: -6872619889003313276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 104
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c6469207c931030800000000000000
+      internalID: 3464284543922760725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 104
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca05468b65e3a680800000000000000
+      internalID: -8744893801446438197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 104
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a9ddaa5b6fe6bc0800000000000000
+      internalID: -3787818976455845284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 104
+        width: 212
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cb831bbd8b02380800000000000000
+      internalID: -8997988801775616930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 73
+        width: 37
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5955a82d46eb3df0800000000000000
+      internalID: -199312539419059875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 76
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4773ac2d1a331670800000000000000
+      internalID: 8508208018010371918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 73
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cfcf7d4f94188e90800000000000000
+      internalID: -7023340944451711035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 74
+        width: 36
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9552b88210e0370800000000000000
+      internalID: 8290565237680462329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 76
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1051a35a1b6c38b70800000000000000
+      internalID: 8900175754897790209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 72
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2899a89aac9ae20e0800000000000000
+      internalID: -2292708472392083070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 4
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03154e993cd384010800000000000000
+      internalID: 1173255613239808304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 4
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1eb8858e7997e40800000000000000
+      internalID: 5654717831314137569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 3
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb423d7d5cb3e2d0800000000000000
+      internalID: -3250547396312937537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 4
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eddde44acfaf73ed0800000000000000
+      internalID: -2434201110575129122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 4
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f51bc98dd7a46e0800000000000000
+      internalID: -1852529927414259845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 15
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a888a0c9a8b5270800000000000000
+      internalID: 8240332346000706199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 7
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822fcfc864631d570800000000000000
+      internalID: 8489626449211093544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Yasser_Movimenti_1-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 4
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f761832c1437fb780800000000000000
+      internalID: -8665080431769020801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Yasser_Movimenti_1-removebg-preview_0: 7343396054571014412
+      Yasser_Movimenti_1-removebg-preview_1: 1279635882438206984
+      Yasser_Movimenti_1-removebg-preview_10: -698861374362149621
+      Yasser_Movimenti_1-removebg-preview_11: 4212595776350361979
+      Yasser_Movimenti_1-removebg-preview_12: -1609176985183861429
+      Yasser_Movimenti_1-removebg-preview_13: 2286844922882741090
+      Yasser_Movimenti_1-removebg-preview_14: -5798267813892155543
+      Yasser_Movimenti_1-removebg-preview_15: -3912297439608697362
+      Yasser_Movimenti_1-removebg-preview_16: 6551825574727428017
+      Yasser_Movimenti_1-removebg-preview_17: 8875574469024809085
+      Yasser_Movimenti_1-removebg-preview_18: 5171911397142408528
+      Yasser_Movimenti_1-removebg-preview_19: 1481490626848371751
+      Yasser_Movimenti_1-removebg-preview_2: -1098630351461178405
+      Yasser_Movimenti_1-removebg-preview_20: -7080157102059338907
+      Yasser_Movimenti_1-removebg-preview_21: 6963254679692010656
+      Yasser_Movimenti_1-removebg-preview_22: 3410502800516952444
+      Yasser_Movimenti_1-removebg-preview_23: 864622681539217174
+      Yasser_Movimenti_1-removebg-preview_24: -6437951056592932494
+      Yasser_Movimenti_1-removebg-preview_25: 9136436715714244999
+      Yasser_Movimenti_1-removebg-preview_26: -3970758791251288679
+      Yasser_Movimenti_1-removebg-preview_27: 7814443224310110483
+      Yasser_Movimenti_1-removebg-preview_28: -2957098483523551966
+      Yasser_Movimenti_1-removebg-preview_29: -3873567793108373464
+      Yasser_Movimenti_1-removebg-preview_3: -5208877311432336641
+      Yasser_Movimenti_1-removebg-preview_30: 6238736212391024349
+      Yasser_Movimenti_1-removebg-preview_31: 6173708037645865747
+      Yasser_Movimenti_1-removebg-preview_32: 8166290829347953096
+      Yasser_Movimenti_1-removebg-preview_33: -1852450882038840520
+      Yasser_Movimenti_1-removebg-preview_34: -2029840540335743646
+      Yasser_Movimenti_1-removebg-preview_35: 1109650151479212871
+      Yasser_Movimenti_1-removebg-preview_36: 8817858044175089146
+      Yasser_Movimenti_1-removebg-preview_37: -6872619889003313276
+      Yasser_Movimenti_1-removebg-preview_38: 3464284543922760725
+      Yasser_Movimenti_1-removebg-preview_39: -8744893801446438197
+      Yasser_Movimenti_1-removebg-preview_4: -5601571063717336102
+      Yasser_Movimenti_1-removebg-preview_40: -3787818976455845284
+      Yasser_Movimenti_1-removebg-preview_41: -8997988801775616930
+      Yasser_Movimenti_1-removebg-preview_42: -199312539419059875
+      Yasser_Movimenti_1-removebg-preview_43: 8508208018010371918
+      Yasser_Movimenti_1-removebg-preview_44: -7023340944451711035
+      Yasser_Movimenti_1-removebg-preview_45: 8290565237680462329
+      Yasser_Movimenti_1-removebg-preview_46: 8900175754897790209
+      Yasser_Movimenti_1-removebg-preview_47: -2292708472392083070
+      Yasser_Movimenti_1-removebg-preview_48: 1173255613239808304
+      Yasser_Movimenti_1-removebg-preview_49: 5654717831314137569
+      Yasser_Movimenti_1-removebg-preview_5: -5783729853932832868
+      Yasser_Movimenti_1-removebg-preview_50: -3250547396312937537
+      Yasser_Movimenti_1-removebg-preview_51: -2434201110575129122
+      Yasser_Movimenti_1-removebg-preview_52: -1852529927414259845
+      Yasser_Movimenti_1-removebg-preview_53: 8240332346000706199
+      Yasser_Movimenti_1-removebg-preview_54: 8489626449211093544
+      Yasser_Movimenti_1-removebg-preview_55: -8665080431769020801
+      Yasser_Movimenti_1-removebg-preview_6: -4499868100129498501
+      Yasser_Movimenti_1-removebg-preview_7: 2039540037920141275
+      Yasser_Movimenti_1-removebg-preview_8: 4038264566790336888
+      Yasser_Movimenti_1-removebg-preview_9: -2818834313522847881
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:5_Applicativo/SAMT ALL-STARS/Assets/Resources/Sprites/Game.meta
 guid: dee22764ff84bef449919b89d8ff80d2
+========
+guid: 6c7446b998594e24aa62b5066ef26f65
+>>>>>>>> Stashed changes:5_Applicativo/SAMT ALL-STARS/Assets/Resources/Materials.meta
+=======
+guid: 9cc815285e9c17b4e9d0434ee826a7a5
+>>>>>>> Stashed changes
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
