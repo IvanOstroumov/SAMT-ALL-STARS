@@ -13,13 +13,13 @@ public class Calci : MonoBehaviour
     void Update()
     {
         // CALCIO IN AVANTI — K a terra
-        if (Input.GetKeyDown(KeyCode.K) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.K))
         {
             anim.SetTrigger("CalcioAvanti");
         }
 
         // CALCIO IN GIÙ — K in aria
-        if (Input.GetKeyDown(KeyCode.K) && !isGrounded)
+        if (Input.GetKeyDown(KeyCode.S))
         {
             anim.SetTrigger("CalcioGiu");
         }
