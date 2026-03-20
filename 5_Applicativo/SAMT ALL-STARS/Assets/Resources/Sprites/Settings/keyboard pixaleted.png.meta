@@ -1647,68 +1647,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      keyboard pixaleted_0: -2081741804077996915
-      keyboard pixaleted_1: 45580966398747311
-      keyboard pixaleted_10: -8224670709200209275
-      keyboard pixaleted_11: -9187463212967817226
-      keyboard pixaleted_12: -3388372981811713251
-      keyboard pixaleted_13: -3406170484786443315
-      keyboard pixaleted_14: 4287880484524732096
-      keyboard pixaleted_15: 1417872572242880273
-      keyboard pixaleted_16: -8602621273888770809
-      keyboard pixaleted_17: 8880025402235058258
-      keyboard pixaleted_18: 5466579104045503169
-      keyboard pixaleted_19: 3205065091138283170
-      keyboard pixaleted_2: -2490356887068605224
-      keyboard pixaleted_20: -3909756983734374659
-      keyboard pixaleted_21: -1880285061572509090
-      keyboard pixaleted_22: 1435820247421277591
-      keyboard pixaleted_23: 4850750276444774516
-      keyboard pixaleted_24: -4435360724804349048
-      keyboard pixaleted_25: -7869320451959189593
-      keyboard pixaleted_26: -2594006409591964729
-      keyboard pixaleted_27: 7976462661815469588
-      keyboard pixaleted_28: 8761733997353571527
-      keyboard pixaleted_29: 1278926618121100835
-      keyboard pixaleted_3: -4493666282161054161
-      keyboard pixaleted_30: -1322362794220996088
-      keyboard pixaleted_31: -1590541679766535679
-      keyboard pixaleted_32: -1228521332289308373
-      keyboard pixaleted_33: 6822728155516875152
-      keyboard pixaleted_34: 9055568246013226439
-      keyboard pixaleted_35: 183586502515202231
-      keyboard pixaleted_36: 8835573531145578462
-      keyboard pixaleted_37: 7585161997540958122
-      keyboard pixaleted_38: 6115582658244375178
-      keyboard pixaleted_39: -371494605202028020
-      keyboard pixaleted_4: -6799809912856596253
-      keyboard pixaleted_40: -6842117317525338701
-      keyboard pixaleted_41: -5705552911387372943
-      keyboard pixaleted_42: 1300698931102346602
-      keyboard pixaleted_43: 2557969713024461846
-      keyboard pixaleted_44: -8225374717566079814
-      keyboard pixaleted_45: -3651086285604753904
-      keyboard pixaleted_46: -8106939756531444920
-      keyboard pixaleted_47: 4357072272730690043
-      keyboard pixaleted_48: 3246419123564524055
-      keyboard pixaleted_49: 5149963915591412699
-      keyboard pixaleted_5: 5880403992680314998
-      keyboard pixaleted_50: -409330229348250236
-      keyboard pixaleted_51: -2108477711675704589
-      keyboard pixaleted_52: -5379769522214648262
-      keyboard pixaleted_53: 3892233029499199210
-      keyboard pixaleted_54: 3041850226687611073
-      keyboard pixaleted_55: 6951049733999042089
-      keyboard pixaleted_56: -4402142970213514576
-      keyboard pixaleted_57: 8070714078878322887
-      keyboard pixaleted_58: 4341351316093029739
-      keyboard pixaleted_59: -9212061219803038961
-      keyboard pixaleted_6: 8177271982221446028
-      keyboard pixaleted_60: 1301444622778580694
-      keyboard pixaleted_7: 6968034585761938735
-      keyboard pixaleted_8: -5274077479689001648
-      keyboard pixaleted_9: 971071576666645333
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
