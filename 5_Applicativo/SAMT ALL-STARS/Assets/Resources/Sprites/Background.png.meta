@@ -1,14 +1,10 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
-guid: 02764d9fcf1fab54594f52cf9fb65192
-=======
-guid: c44a52addb4216d4fb28270c87f05107
->>>>>>> Stashed changes
+guid: 29e4c4830b3a6cc4eb0f2cfaa4ee0f74
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1955448553306655712
-    second: Background_0
+      213: -7790544929387226549
+    second: Background 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -117,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_0
+      name: Background 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -132,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 024fa93b6e9dcd4e0800000000000000
-      internalID: -1955448553306655712
+      spriteID: b4a572da9ac62e390800000000000000
+      internalID: -7790544929387226549
       vertices: []
       indices: 
       edges: []
@@ -151,16 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< Updated upstream
     nameFileIdTable:
-<<<<<<<< Updated upstream:5_Applicativo/SAMT ALL-STARS/Assets/Resources/Sprites/Background.png.meta
-      Background_0: -1955448553306655712
-========
-      Yasser_Pugni_1_0: 152747939598876352
->>>>>>>> Stashed changes:5_Applicativo/SAMT ALL-STARS/Assets/Resources/Sprites/Sprites/Player/Yasser/Yasser_Pugni_1.png.meta
-=======
-    nameFileIdTable: {}
->>>>>>> Stashed changes
+      Background 1_0: -7790544929387226549
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

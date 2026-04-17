@@ -1,14 +1,10 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
-guid: e29f17c5e341bb34f886554d1d1151ba
-=======
-guid: d48e897f93e12604ba922a4dfeadca82
->>>>>>> Stashed changes
+guid: cc08af73dfbd16545855fec5a4e14190
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4571828015118065507
-    second: back_0
+      213: -7926628504452796445
+    second: back 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -117,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: back_0
+      name: back 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -132,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9065b094aa9d80c0800000000000000
-      internalID: -4571828015118065507
+      spriteID: 3efea9d4f55fef190800000000000000
+      internalID: -7926628504452796445
       vertices: []
       indices: 
       edges: []
@@ -151,16 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< Updated upstream
     nameFileIdTable:
-<<<<<<<< Updated upstream:5_Applicativo/SAMT ALL-STARS/Assets/Resources/Sprites/back.png.meta
-      back_0: -4571828015118065507
-========
-      Yasser_Calci_1_0: -7347307973272389460
->>>>>>>> Stashed changes:5_Applicativo/SAMT ALL-STARS/Assets/Resources/Sprites/Sprites/Player/Yasser/Yasser_Calci_1.png.meta
-=======
-    nameFileIdTable: {}
->>>>>>> Stashed changes
+      back 1_0: -7926628504452796445
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

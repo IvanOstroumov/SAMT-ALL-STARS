@@ -1,14 +1,10 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
-guid: fe146864e35b78e429b943bee384324e
-=======
-guid: 9cec942217438114792161ba7f571b01
->>>>>>> Stashed changes
+guid: 32740d26ed39d25439f995d2021ebcdb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7559448109424008685
-    second: Background_Blur_0
+      213: -2036390825679543314
+    second: Background_Blur 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -117,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_Blur_0
+      name: Background_Blur 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -132,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ded573cf00e88e860800000000000000
-      internalID: 7559448109424008685
+      spriteID: ee3a18355594db3e0800000000000000
+      internalID: -2036390825679543314
       vertices: []
       indices: 
       edges: []
@@ -151,16 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< Updated upstream
     nameFileIdTable:
-<<<<<<<< Updated upstream:5_Applicativo/SAMT ALL-STARS/Assets/Resources/Sprites/Background_Blur.png.meta
-      Background_Blur_0: 7559448109424008685
-========
-      ChatGPT Image 6 mar 2026, 11_20_40_0: 5791467624167363872
->>>>>>>> Stashed changes:5_Applicativo/SAMT ALL-STARS/Assets/Resources/Sprites/Player/Sidon/ChatGPT Image 6 mar 2026, 11_20_40.png.meta
-=======
-    nameFileIdTable: {}
->>>>>>> Stashed changes
+      Background_Blur 1_0: -2036390825679543314
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
