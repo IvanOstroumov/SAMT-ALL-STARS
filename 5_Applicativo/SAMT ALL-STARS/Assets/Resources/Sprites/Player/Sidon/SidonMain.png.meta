@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7e920ff60e09ae94b920a0a21bde5367
+guid: 18d15105b51c67c4f8b329e50cf3e436
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -116,12 +116,12 @@ TextureImporter:
       name: SidonMain_0
       rect:
         serializedVersion: 2
-        x: 252
-        y: 178
-        width: 532
-        height: 1268
+        x: 0
+        y: 0
+        width: 1024
+        height: 1536
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8905e8c6b62a01044b7b20bd128b33d8
     internalID: 0
     vertices: []
     indices: 
