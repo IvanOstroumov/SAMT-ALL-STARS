@@ -1,14 +1,10 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
-guid: 3cb6e48c449398048844052bf7dd8dfc
-=======
-guid: 1a6433fc42b6f2e42bf88c411b9b942b
->>>>>>> Stashed changes
+guid: 486264b6c72262847a7a568f2b13d2e2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4445253789421732094
-    second: button design orange_0
+      213: -1643786584953213193
+    second: button design orange 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -117,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: button design orange_0
+      name: button design orange 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -132,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef001fef4c6b0bd30800000000000000
-      internalID: 4445253789421732094
+      spriteID: 7feaf456fc81039e0800000000000000
+      internalID: -1643786584953213193
       vertices: []
       indices: 
       edges: []
@@ -151,16 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< Updated upstream
     nameFileIdTable:
-<<<<<<<< Updated upstream:5_Applicativo/SAMT ALL-STARS/Assets/Resources/Sprites/button design orange.png.meta
-      button design orange_0: 4445253789421732094
-========
-      tutto_0: 2203645334776270573
->>>>>>>> Stashed changes:5_Applicativo/SAMT ALL-STARS/Assets/Resources/Sprites/Sprites/Player/Yasser/tutto.png.meta
-=======
-    nameFileIdTable: {}
->>>>>>> Stashed changes
+      button design orange 1_0: -1643786584953213193
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
