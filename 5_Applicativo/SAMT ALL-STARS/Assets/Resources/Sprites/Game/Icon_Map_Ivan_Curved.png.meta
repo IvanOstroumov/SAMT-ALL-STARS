@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Icon_Map_Ivan_Curved_0: 5434901024609943283
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

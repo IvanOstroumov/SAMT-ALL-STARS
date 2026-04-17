@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Icon_Map_Sidon_Curved_0: 7320847971535418740
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

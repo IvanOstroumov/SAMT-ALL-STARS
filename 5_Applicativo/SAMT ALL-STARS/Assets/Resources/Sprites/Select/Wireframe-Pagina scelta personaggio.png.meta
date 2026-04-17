@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Wireframe-Pagina scelta personaggio_0: -137889314453017989
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

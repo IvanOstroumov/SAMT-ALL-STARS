@@ -8,8 +8,7 @@ public class PlayerScript : MonoBehaviour
     private bool isStartedAnimation;
     private float time;
     public float animationTime;
-    private bool left = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
@@ -37,22 +36,22 @@ public class PlayerScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.D)) 
         {
-            left = false;
+            transform.localScale = new Vector3(
+                Mathf.Abs(transform.localScale.x),
+                transform.localScale.y,
+                transform.localScale.z
+            );
         }
         if (Input.GetKeyDown(KeyCode.A)) 
         {
-            left = true;
+            transform.localScale = new Vector3(
+                - Mathf.Abs(transform.localScale.x),
+                transform.localScale.y,
+                transform.localScale.z
+            );
         }
 
-        animator.SetBool("Left", left);
-        if (left)
-        {
-            animator.SetBool("Punch_L", isStartedAnimation);
-        }
-        else 
-        {
-            animator.SetBool("Punch_R", isStartedAnimation);
-        }
+        animator.SetBool("Punch", isStartedAnimation);
         
     }
 }
