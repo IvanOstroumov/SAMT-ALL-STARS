@@ -7,8 +7,11 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private static readonly int IsJumping = Animator.StringToHash("IsJumping");
+    private static readonly int OnGround = Animator.StringToHash("OnGround");
+    private static readonly int IsDashing = Animator.StringToHash("IsDashing");
     public float speed = 1.5f;
     public float jumpPower = 10f;
+
 
     private float move;
     public LayerMask groundLayer;
@@ -67,7 +70,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (Mathf.Abs(rb.linearVelocityX) > 0.01 && !isStartedAnimation && onGround)
+        if (Mathf.Abs(rb.linearVelocityX) > 0.01 && !isStartedAnimation && onGround && !isDashing)
         {
             animator.SetBool("Run", true);
         }
@@ -96,6 +99,7 @@ public class PlayerController : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
             onGround = false;
+            animator.SetBool(OnGround, onGround);
             animator.SetBool(IsJumping, true);
         }
 
@@ -112,13 +116,23 @@ public class PlayerController : MonoBehaviour
         {
             onGround = true;
             animator.SetBool(IsJumping, false);
+            animator.SetBool(OnGround, onGround);
         }
     }
 
+    public void OnCollisionExit2D(Collision2D other)
+    {
+        if ((groundLayer == (1 << other.gameObject.layer)))
+        {
+            onGround = false;
+            animator.SetBool(OnGround, onGround);
+        }
+    }
     private IEnumerator Dash()
     {
         canDash = false;
         isDashing = true;
+        animator.SetBool(IsDashing, isDashing);
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
         float direction = spriteRenderer.flipX ? -1f : 1f;
@@ -126,6 +140,7 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(dashTime);
         rb.gravityScale = originalGravity;
         isDashing = false;
+        animator.SetBool(IsDashing, isDashing);
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
     }
