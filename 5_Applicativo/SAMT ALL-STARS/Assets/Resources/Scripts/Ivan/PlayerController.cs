@@ -23,7 +23,12 @@ public class PlayerController : MonoBehaviour
     private float dashCooldown = 0.5f;
     private bool canDash = true;
     private bool isDashing;
-    
+
+    private bool isStartedAnimation;
+    private float time;
+    public float animationTime;
+    private string typeAnimation;
+
     private Animator animator;
 
 
@@ -34,21 +39,58 @@ public class PlayerController : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         onGround = false;
         animator  = GetComponent<Animator>();
+        isStartedAnimation = false;
     }
 
     void Update()
     {
+        //Animazioni
+        if (Input.GetKeyDown(KeyCode.J) && !isStartedAnimation)
+        {
+            isStartedAnimation = true;
+            typeAnimation = "Punch";
+            time = 0;
+        }
+        if (Input.GetKeyDown(KeyCode.K) && !isStartedAnimation)
+        {
+            isStartedAnimation = true;
+            typeAnimation = "Kick";
+            time = 0;
+        }
+
+        if (isStartedAnimation)
+        {
+            time += Time.deltaTime;
+            if (time > animationTime)
+            {
+                isStartedAnimation = false;
+            }
+        }
+
+        if (Mathf.Abs(rb.linearVelocityX) > 0.01 && !isStartedAnimation && onGround)
+        {
+            animator.SetBool("Run", true);
+        }
+        else
+        {
+            animator.SetBool("Run", false);
+        }
+
+        animator.SetBool(typeAnimation, isStartedAnimation);
+
+        // Movimento, Salto e Dash
         move = Input.GetAxis("Horizontal");
         if (!isDashing)
         {
             if (move > 0)
             {
-                spriteRenderer.flipX = true;
+                spriteRenderer.flipX = false;
             } else if (move < 0)
             {
-                spriteRenderer.flipX = false;
+                spriteRenderer.flipX = true;
             }
             rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
+            
         }
         if (Input.GetButtonDown("Jump") && onGround)
         {
@@ -79,7 +121,7 @@ public class PlayerController : MonoBehaviour
         isDashing = true;
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
-        float direction = spriteRenderer.flipX ? 1f : -1f;
+        float direction = spriteRenderer.flipX ? -1f : 1f;
         rb.linearVelocity = new Vector2(direction * dashPower, 0f);
         yield return new WaitForSeconds(dashTime);
         rb.gravityScale = originalGravity;
