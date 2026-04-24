@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 1.5f;
     public float jumpPower = 10f;
 
+
     private float move;
     public LayerMask groundLayer;
     private bool onGround;
@@ -79,7 +80,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (Mathf.Abs(rb.linearVelocityX) > 0.01 && !isStartedAnimation && onGround)
+        if (Mathf.Abs(rb.linearVelocityX) > 0.01 && !isStartedAnimation && onGround && !isDashing)
         {
             animator.SetBool("Run", true);
         }
@@ -125,6 +126,7 @@ public class PlayerController : MonoBehaviour
         {
             onGround = true;
             animator.SetBool(IsJumping, false);
+            animator.SetBool(OnGround, onGround);
         }
     }
     
@@ -137,6 +139,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void OnCollisionExit2D(Collision2D other)
+    {
+        if ((groundLayer == (1 << other.gameObject.layer)))
+        {
+            onGround = false;
+            animator.SetBool(OnGround, onGround);
+        }
+    }
     private IEnumerator Dash()
     {
         canDash = false;
