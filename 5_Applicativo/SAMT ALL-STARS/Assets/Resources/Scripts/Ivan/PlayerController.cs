@@ -7,16 +7,18 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private static readonly int IsJumping = Animator.StringToHash("IsJumping");
+    private static readonly int OnGround = Animator.StringToHash("OnGround");
+    private static readonly int IsDashing = Animator.StringToHash("IsDashing");
     public float speed = 1.5f;
     public float jumpPower = 10f;
 
     private float move;
     public LayerMask groundLayer;
     private bool onGround;
-    
+
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
-    private Transform transform;
+    private new Transform transform;
 
     private float dashPower = 24f;
     private float dashTime = 0.1f;
@@ -31,6 +33,14 @@ public class PlayerController : MonoBehaviour
 
     private Animator animator;
 
+    [Header("Vita")]
+    public int maxHealth = 100;
+    private int currentHealth;
+
+    [Header("Hitbox")]
+    public Hitbox punchHitbox;
+    public Hitbox kickHitbox;
+
 
     void Start()
     {
@@ -38,13 +48,13 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         onGround = false;
-        animator  = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         isStartedAnimation = false;
+        currentHealth = maxHealth;
     }
 
     void Update()
     {
-        //Animazioni
         if (Input.GetKeyDown(KeyCode.J) && !isStartedAnimation)
         {
             isStartedAnimation = true;
@@ -64,6 +74,8 @@ public class PlayerController : MonoBehaviour
             if (time > animationTime)
             {
                 isStartedAnimation = false;
+                animator.SetBool(typeAnimation, false); 
+                typeAnimation = "";
             }
         }
 
@@ -75,34 +87,35 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("Run", false);
         }
-
-        animator.SetBool(typeAnimation, isStartedAnimation);
-
-        // Movimento, Salto e Dash
+        
+        if (!string.IsNullOrEmpty(typeAnimation))
+            animator.SetBool(typeAnimation, isStartedAnimation);
+        
         move = Input.GetAxis("Horizontal");
         if (!isDashing)
         {
             if (move > 0)
             {
                 spriteRenderer.flipX = false;
-            } else if (move < 0)
+            }
+            else if (move < 0)
             {
                 spriteRenderer.flipX = true;
             }
             rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
-            
         }
+
         if (Input.GetButtonDown("Jump") && onGround)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
             onGround = false;
+            animator.SetBool(OnGround, onGround);
             animator.SetBool(IsJumping, true);
         }
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
             StartCoroutine(Dash());
-            
         }
     }
 
@@ -114,11 +127,21 @@ public class PlayerController : MonoBehaviour
             animator.SetBool(IsJumping, false);
         }
     }
+    
+    public void OnCollisionExit2D(Collision2D other)
+    {
+        if ((groundLayer == (1 << other.gameObject.layer)))
+        {
+            onGround = false;
+            animator.SetBool(OnGround, onGround);
+        }
+    }
 
     private IEnumerator Dash()
     {
         canDash = false;
         isDashing = true;
+        animator.SetBool(IsDashing, isDashing);
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
         float direction = spriteRenderer.flipX ? -1f : 1f;
@@ -126,8 +149,27 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(dashTime);
         rb.gravityScale = originalGravity;
         isDashing = false;
+        animator.SetBool(IsDashing, isDashing);
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
     }
+
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        Debug.Log($"{gameObject.name} ha {currentHealth} HP");
+
+        if (currentHealth <= 0) Die();
+    }
+
+    private void Die()
+    {
+        Debug.Log($"{gameObject.name} è morto!");
+    }
     
+
+    public void EnablePunchHitbox()  => punchHitbox.EnableHitbox();
+    public void DisablePunchHitbox() => punchHitbox.DisableHitbox();
+    public void EnableKickHitbox()   => kickHitbox.EnableHitbox();
+    public void DisableKickHitbox()  => kickHitbox.DisableHitbox();
 }
