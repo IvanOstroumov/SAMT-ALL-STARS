@@ -8,6 +8,7 @@ public class PlayerScript : MonoBehaviour
     private bool isStartedAnimation;
     private float time;
     public float animationTime;
+    private string animation;
     
     void Start()
     {
@@ -19,20 +20,28 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.J)) 
+        if (Input.GetKeyDown(KeyCode.J) && !isStartedAnimation)
         {
             isStartedAnimation = true;
+            animation = "Punch";
             time = 0;
         }
-        if (isStartedAnimation) 
+        if (Input.GetKeyDown(KeyCode.K) && !isStartedAnimation)
+        {
+            isStartedAnimation = true;
+            animation = "Kick";
+            time = 0;
+        }
+
+        if (isStartedAnimation)
         {
             time += Time.deltaTime;
-            if (time > animationTime) 
+            if (time > animationTime)
             {
-                isStartedAnimation=false;
+                isStartedAnimation = false;
             }
         }
-        
+
 
         if (Input.GetKeyDown(KeyCode.D)) 
         {
@@ -50,8 +59,7 @@ public class PlayerScript : MonoBehaviour
                 transform.localScale.z
             );
         }
-
-        animator.SetBool("Punch", isStartedAnimation);
         
+        animator.SetBool(animation, isStartedAnimation);
     }
 }
