@@ -76,11 +76,11 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("Run", false);
         }
 
-            animator.SetBool(typeAnimation, isStartedAnimation);
+        animator.SetBool(typeAnimation, isStartedAnimation);
 
         // Movimento, Salto e Dash
         move = Input.GetAxis("Horizontal");
-        if (!isDashing && !isStartedAnimation && onGround)
+        if (!isDashing)
         {
             if (move > 0)
             {
