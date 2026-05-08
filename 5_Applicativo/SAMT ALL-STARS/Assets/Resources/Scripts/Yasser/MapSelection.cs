@@ -1,8 +1,10 @@
+using Resources.Scripts;
 using System;
 using System.Xml.Schema;
 using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MapSelection : MonoBehaviour
 {

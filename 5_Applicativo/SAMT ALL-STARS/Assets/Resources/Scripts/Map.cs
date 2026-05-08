@@ -1,18 +1,21 @@
-﻿namespace Resources.Scripts
+﻿using UnityEngine;
+using UnityEngine.UI;
+
+namespace Resources.Scripts
 {
     public class Map
     {
         private string name;
-        private string imagePath;
+        private Sprite image;
         
-        public Map(string name, string imagePath)
+        public Map(string name, Sprite image)
         {
             this.name = name;
-            this.imagePath = imagePath;
+            this.image = image;
         }
 
         public string Name => name;
 
-        public string ImagePath => imagePath;
+        public Sprite Image => image;
     }
 }
