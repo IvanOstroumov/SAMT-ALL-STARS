@@ -1,0 +1,44 @@
+{
+  "characters": [
+    {
+      "name": "quan",
+      "maxHp": 200,
+      "speed": 1.1,
+      "description": "Ghosting: diventa un fantasmino per 0.25s, non subisce danni.",
+      "winCount": 0,
+      "gamesPlayed": 0,
+      "cooldown": 7.0,
+      "duration": 0.25
+    },
+    {
+      "name": "sidon",
+      "maxHp": 250,
+      "speed": 1.25,
+      "description": "Roberto Carlos: tira un pallone orizzontale. 25 dmg.",
+      "winCount": 0,
+      "gamesPlayed": 0,
+      "cooldown": 13.0,
+      "duration": 0.0
+    },
+    {
+      "name": "yasser",
+      "maxHp": 300,
+      "speed": 1.0,
+      "description": "LilBoom: lancia una bomba che esplode a contatto. 20 dmg.",
+      "winCount": 0,
+      "gamesPlayed": 0,
+      "cooldown": 11.0,
+      "duration": 0.0
+    },
+    {
+      "name": "ivan",
+      "maxHp": 250,
+      "speed": 1.0,
+      "description": "Pierce Thought: spara 3 parole verso il nemico. 7 dmg/parola.",
+      "winCount": 0,
+      "gamesPlayed": 0,
+      "cooldown": 10.0,
+      "duration": 0.0
+    }
+  ]
+}

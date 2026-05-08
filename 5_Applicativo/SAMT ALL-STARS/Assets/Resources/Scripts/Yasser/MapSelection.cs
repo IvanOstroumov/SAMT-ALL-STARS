@@ -27,7 +27,8 @@ public class MapSelection : MonoBehaviour
     void Update()
     {
         if (!String.IsNullOrEmpty(selectedMap)){
-            if (Input.GetKeyDown(KeyCode.Return)){
+            if (Input.GetKeyDown(KeyCode.Return) | Input.GetKeyDown(KeyCode.Joystick1Button1))
+            {
                 PlayerPrefs.SetString("Map", selectedMap);
                 SceneManager.LoadScene("CharacterSelection");
             }
