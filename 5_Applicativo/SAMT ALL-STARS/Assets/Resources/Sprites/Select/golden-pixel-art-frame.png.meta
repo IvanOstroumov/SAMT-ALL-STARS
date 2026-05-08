@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      golden-pixel-art-frame_0: 2637699910138340115
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
