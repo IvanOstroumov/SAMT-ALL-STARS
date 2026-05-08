@@ -139,14 +139,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void OnCollisionExit2D(Collision2D other)
-    {
-        if ((groundLayer == (1 << other.gameObject.layer)))
-        {
-            onGround = false;
-            animator.SetBool(OnGround, onGround);
-        }
-    }
     private IEnumerator Dash()
     {
         canDash = false;
