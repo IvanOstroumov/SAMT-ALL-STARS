@@ -1,3 +1,4 @@
+using Resources.Scripts;
 using System.Collections;
 using UnityEngine;
 
@@ -6,6 +7,11 @@ using UnityEngine;
 [RequireComponent(typeof(Transform))]
 public class PlayerController : MonoBehaviour
 {
+    private CharacterManager characterManager;
+    private Character character;
+    private InputType inputType;
+    private string playerName;
+
     private static readonly int IsJumping = Animator.StringToHash("IsJumping");
     private static readonly int OnGround = Animator.StringToHash("OnGround");
     private static readonly int IsDashing = Animator.StringToHash("IsDashing");
@@ -45,6 +51,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        characterManager = GameManager.Instance.characterManager;
         transform = GetComponent<Transform>();
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -52,6 +59,22 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         isStartedAnimation = false;
         currentHealth = maxHealth;
+
+        if (gameObject.name == "Player_Joystick")
+        {
+            inputType = InputType.Controller;
+            playerName = "Player2";
+        }
+        else 
+        {
+             inputType = InputType.Keyboard;
+            playerName = "Player1";
+        }
+        character = characterManager.getCharByName(PlayerPrefs.GetString(playerName));
+
+        GetComponent<Animator>().runtimeAnimatorController = character.Controller;
+        GetComponent<SpriteRenderer>().sprite = character.Sprite;
+
     }
 
     void Update()
@@ -159,14 +182,14 @@ public class PlayerController : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        Debug.Log($"{gameObject.name} ha {currentHealth} HP");
+        Debug.Log($"{base.gameObject.name} ha {currentHealth} HP");
 
         if (currentHealth <= 0) Die();
     }
 
     private void Die()
     {
-        Debug.Log($"{gameObject.name} è morto!");
+        Debug.Log($"{base.gameObject.name} è morto!");
     }
     
 
