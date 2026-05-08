@@ -1,15 +1,22 @@
+using System;
+using UnityEngine;
+
 namespace Resources.Scripts
 {
+    [Serializable]
     public class CharacterData
     {
-        private string name;
-        private int maxHp;
-        private float speed;
-        private string description;
-        private int winCount;
-        private int gamesPlayed;
+        // [SerializeField] permette a JsonUtility di leggere i campi privati dal JSON
+        [SerializeField] private string name;
+        [SerializeField] private int maxHp;
+        [SerializeField] private float speed;
+        [SerializeField] private string description;
+        [SerializeField] private int winCount;
+        [SerializeField] private int gamesPlayed;
+        [SerializeField] public float cooldown;
+        [SerializeField] public float duration;
 
-        public CharacterData(string name, int maxHp, float speed, string description, int winCount, int gamesPlayed)
+        public CharacterData(string name, int maxHp, float speed, string description, int winCount, int gamesPlayed, float cooldown, float duration)
         {
             this.name = name;
             this.maxHp = maxHp;
@@ -17,18 +24,15 @@ namespace Resources.Scripts
             this.description = description;
             this.winCount = winCount;
             this.gamesPlayed = gamesPlayed;
+            this.cooldown = cooldown;
+            this.duration = duration;
         }
 
         public string Name => name;
-
         public int MaxHp => maxHp;
-
         public float Speed => speed;
-
         public string Description => description;
-
         public int WinCount => winCount;
-
         public int GamesPlayed => gamesPlayed;
     }
 }

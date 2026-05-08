@@ -30,7 +30,7 @@ public class CharacterSelection : MonoBehaviour
     // Immagini che appaiono quando P2 conferma (numero 2)
     private GameObject sidonP2, ivanP2, quanP2, yasserP2;
 
-    public GameObject P1, P2;
+    private GameObject P1, P2;
 
     // Cooldown per non scorrere troppo veloce (solo P2)
     private float inputCooldown = 0.25f;
