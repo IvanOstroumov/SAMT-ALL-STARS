@@ -34,5 +34,8 @@ namespace Resources.Scripts
         public string Description => description;
         public int WinCount => winCount;
         public int GamesPlayed => gamesPlayed;
+        public float Cooldown => cooldown;
+        public float Duration => duration;
+
     }
 }

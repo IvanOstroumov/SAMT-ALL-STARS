@@ -1,9 +1,24 @@
-﻿using System;
+﻿using Resources.Scripts;
+using System;
+using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class CharacterSelection : MonoBehaviour
 {
+    private CharacterManager characterManager;
+
+    public RuntimeAnimatorController sidonController;
+    public RuntimeAnimatorController ivanController;
+    public RuntimeAnimatorController quanController;
+    public RuntimeAnimatorController yasserController;
+
+    public Sprite sidonSprite;
+    public Sprite ivanSprite;
+    public Sprite quanSprite;
+    public Sprite yasserSprite;
+
+
     public static string player1Character;
     public static string player2Character;
 
@@ -38,6 +53,19 @@ public class CharacterSelection : MonoBehaviour
 
     void Start()
     {
+        characterManager = GameManager.Instance.characterManager;
+        characterManager.getCharByName("sidon").Sprite = sidonSprite;
+        characterManager.getCharByName("ivan").Sprite = ivanSprite;
+        characterManager.getCharByName("quan").Sprite = quanSprite;
+        characterManager.getCharByName("yasser").Sprite = yasserSprite;
+
+        characterManager.getCharByName("sidon").Controller = sidonController;
+        characterManager.getCharByName("ivan").Controller = ivanController;
+        characterManager.getCharByName("quan").Controller = quanController;
+        characterManager.getCharByName("yasser").Controller = yasserController;
+
+        
+
         player1Character = string.Empty;
         player2Character = string.Empty;
 
@@ -101,18 +129,17 @@ public class CharacterSelection : MonoBehaviour
             }
         }
 
-        // ── Entrambi confermati → vai alla scena di gioco ─────────────
+
         if (p1Confirmed && p2Confirmed)
         {
             PlayerPrefs.SetString("Player1", player1Character);
             PlayerPrefs.SetString("Player2", player2Character);
+
             SceneManager.LoadScene("game");
         }
     }
 
-    // ═══════════════════════════════════════════════════════════════════
-    // FUNZIONI P1 — metti ognuna sul bottone corrispondente in Inspector
-    // ═══════════════════════════════════════════════════════════════════
+
 
     public void SelectSidonP1()
     {

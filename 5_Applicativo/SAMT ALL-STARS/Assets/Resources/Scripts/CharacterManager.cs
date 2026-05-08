@@ -4,20 +4,15 @@ using UnityEngine;
 
 namespace Resources.Scripts
 {
-    // Wrapper per JsonUtility — contiene l'array di CharacterData
-    [Serializable]
-    public class CharacterDataList
-    {
-        public CharacterData[] characters;
-    }
-
+    
     public class CharacterManager
     {
         List<Character> characters;
 
         public CharacterManager()
         {
-            characters = new List<Character>();
+            getCharsFromJSON();
+
         }
 
         public Character getCharByName(string name)
@@ -30,14 +25,14 @@ namespace Resources.Scripts
             return null;
         }
 
-        public List<Character> getCharsFromJSON()
+        public void getCharsFromJSON()
         {
             TextAsset jsonFile = UnityEngine.Resources.Load<TextAsset>("Scripts/characters");
 
             if (jsonFile == null)
             {
                 Debug.LogError("characters.json non trovato in Assets/Resources/Scripts/");
-                return null;
+                characters = null;
             }
 
             CharacterDataList jsonList = JsonUtility.FromJson<CharacterDataList>(jsonFile.text);
@@ -46,11 +41,17 @@ namespace Resources.Scripts
 
             foreach (CharacterData data in jsonList.characters)
             {
-                Character character = new Character(data, data.MaxHp, null, data.duration, data.cooldown);
+                Character character = new Character(data, data.MaxHp, null, data.duration, data.cooldown,null,null);
                 characters.Add(character);
             }
-
-            return characters;
         }
+
+        // Wrapper per JsonUtility — contiene l'array di CharacterData
+        [Serializable]
+        public class CharacterDataList
+        {
+            public CharacterData[] characters;
+        }
+
     }
 }
