@@ -1,11 +1,15 @@
+using NUnit.Framework;
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class wiki_changePlayer : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private String tag = "PlayerGroup";
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -14,8 +18,22 @@ public class wiki_changePlayer : MonoBehaviour
         
     }
 
-    public void changePlayer() 
+    public void changePlayer(GameObject select) 
     {
-        GameObject gameObject = GameObject.FindGameObjectsWithTag("p")[0];
+        GameObject[] groups = GameObject.FindGameObjectsWithTag(tag);
+        foreach (GameObject group in groups) 
+        {
+            RectTransform transform = group.GetComponent<RectTransform>();
+         
+            if (select.Equals(group))
+            {
+                Debug.Log(group.name);
+                transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, 0f);
+            }
+            else 
+            {
+                transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, 1300f);
+            }
+        }
     }
 }
