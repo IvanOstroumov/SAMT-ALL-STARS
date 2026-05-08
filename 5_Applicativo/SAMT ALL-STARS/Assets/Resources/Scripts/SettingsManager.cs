@@ -13,9 +13,18 @@ public class SettingsManager : MonoBehaviour
     public Slider sfxSlider;
     public Slider voiceSlider;
 
-    [Header("Control Images")]
-    public GameObject pcImage;
+    [Header("Keyboard")]
+    public GameObject keyboardButton;
+    public GameObject keyboardButtonClicked;
+    public GameObject keboardImage;
+    public GameObject keyCodeImage;
+
+    [Header("Controller")]
+    public GameObject controllerButton;
+    public GameObject controllerButtonClicked;
     public GameObject controllerImage;
+    public GameObject controlImage;
+
 
     void Start()
     {
@@ -44,7 +53,9 @@ public class SettingsManager : MonoBehaviour
         sfxSlider.onValueChanged.AddListener(SetSfxVolume);
         voiceSlider.onValueChanged.AddListener(SetVoiceVolume);
 
-        ShowPC();
+
+
+        ShowController();
     }
     
     private void ApplyVolume(string parameter, float value)
@@ -83,13 +94,25 @@ public class SettingsManager : MonoBehaviour
 
     public void ShowPC()
     {
-        pcImage.SetActive(true);
+        keyboardButtonClicked.SetActive(true);
+        keyboardButton.SetActive(false);
+        keyCodeImage.SetActive(true);
+        keboardImage.SetActive(true);
+        controllerButtonClicked.SetActive(false);
         controllerImage.SetActive(false);
+        controlImage.SetActive(false);
+        controllerButton.SetActive(true);
     }
 
     public void ShowController()
     {
-        pcImage.SetActive(false);
+        keyboardButtonClicked.SetActive(false);
+        keyboardButton.SetActive(true);
+        keyCodeImage.SetActive(false);
+        keboardImage.SetActive(false);
+        controllerButtonClicked.SetActive(true);
         controllerImage.SetActive(true);
+        controlImage.SetActive(true);
+        controllerButton.SetActive(false);
     }
 }
