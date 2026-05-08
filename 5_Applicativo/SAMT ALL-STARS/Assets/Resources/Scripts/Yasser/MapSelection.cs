@@ -8,10 +8,8 @@ public class MapSelection : MonoBehaviour
 {
     public static String selectedMap;
 
-    public static GameObject sidon;
-    public static GameObject ivan;
-    public static GameObject quan;
-    public static GameObject yasser;
+    public static GameObject sidon,ivan,yasser,quan;
+
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
