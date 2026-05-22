@@ -11,7 +11,16 @@ namespace Resources.Scripts
 
         public CharacterManager()
         {
-            getCharsFromJSON();
+            try
+            {
+                getCharsFromJSON();
+            }
+            catch (Exception e)
+            {
+                Debug.Log(e);
+                throw;
+            }
+            
 
         }
 

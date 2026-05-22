@@ -6,7 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class CharacterSelection : MonoBehaviour
 {
+    private Gamepad gamepad;
+    
     private CharacterManager characterManager;
+    private bool isLoadedScene;
 
     public RuntimeAnimatorController sidonController;
     public RuntimeAnimatorController ivanController;
@@ -29,6 +32,7 @@ public class CharacterSelection : MonoBehaviour
 
     private bool p1Confirmed = false;
     private bool p2Confirmed = false;
+    private bool karl;
 
     private bool p2HasChosen = false;
 
@@ -50,9 +54,19 @@ public class CharacterSelection : MonoBehaviour
     // Cooldown per non scorrere troppo veloce (solo P2)
     private float inputCooldown = 0.25f;
     private float p2Timer = 0f;
+    private float axis2;
 
     void Start()
     {
+        karl = false;
+        gamepad = new Gamepad();
+        gamepad.Gameplay.Enable();
+        gamepad.Gameplay.Move.performed += ctx => axis2 = ctx.ReadValue<float>();
+        gamepad.Gameplay.Move.canceled += ctx => axis2 = ctx.ReadValue<float>();
+        gamepad.Gameplay.Jump.performed += ctx => karl = ctx.ReadValueAsButton();
+        
+        
+        isLoadedScene = false;
         characterManager = GameManager.Instance.characterManager;
         characterManager.getCharByName("sidon").Sprite = sidonSprite;
         characterManager.getCharByName("ivan").Sprite = ivanSprite;
@@ -95,7 +109,7 @@ public class CharacterSelection : MonoBehaviour
         HideAllP2();
         UpdateDisplay();
     }
-
+    
     void Update()
     {
         p2Timer -= Time.deltaTime;
@@ -103,8 +117,6 @@ public class CharacterSelection : MonoBehaviour
         // ── PLAYER 2 (DualSense — unico joystick collegato) ───────────
         if (!p2Confirmed)
         {
-            float axis2 = Input.GetAxis("Horizontal");
-
             if (p2Timer <= 0f && Mathf.Abs(axis2) > 0.5f)
             {
                 if (axis2 > 0) p2Index = (p2Index + 1) % characters.Length;
@@ -120,7 +132,7 @@ public class CharacterSelection : MonoBehaviour
             }
 
             // X (Croce PS5) conferma il personaggio
-            if (Input.GetKeyDown(KeyCode.Joystick1Button1))
+            if (karl)
             {
                 p2Confirmed = true;
                 player2Character = characters[p2Index];
@@ -130,12 +142,13 @@ public class CharacterSelection : MonoBehaviour
         }
 
 
-        if (p1Confirmed && p2Confirmed)
+        if (p1Confirmed && p2Confirmed && !isLoadedScene)
         {
             PlayerPrefs.SetString("Player1", player1Character);
             PlayerPrefs.SetString("Player2", player2Character);
 
-            SceneManager.LoadScene("game");
+            SceneManager.LoadScene("Game");
+            isLoadedScene = true;
         }
     }
 

@@ -1,3 +1,4 @@
+using System;
 using Resources.Scripts;
 using System.Collections;
 using UnityEngine;
@@ -7,6 +8,9 @@ using UnityEngine;
 [RequireComponent(typeof(Transform))]
 public class PlayerController : MonoBehaviour
 {
+    private Keyboard keyboard;
+    private Gamepad gamepad;
+    
     private CharacterManager characterManager;
     private Character character;
     private InputType inputType;
@@ -18,15 +22,13 @@ public class PlayerController : MonoBehaviour
     public float speed = 1.5f;
     public float jumpPower = 10f;
 
-
-    private float move;
+   // private float move;
     public LayerMask groundLayer;
     private bool onGround;
 
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     private new Transform transform;
-
     private float dashPower = 24f;
     private float dashTime = 0.1f;
     private float dashCooldown = 0.5f;
@@ -48,9 +50,32 @@ public class PlayerController : MonoBehaviour
     public Hitbox punchHitbox;
     public Hitbox kickHitbox;
 
+    public void Awake()
+    {
+        
+        
+    }
 
     void Start()
     {
+        gamepad = new Gamepad();
+        gamepad.Gameplay.Dash.performed += ctx => Dash(InputType.Controller);
+        gamepad.Gameplay.Jump.performed += ctx => Jump(InputType.Controller);
+        gamepad.Gameplay.Kick.performed += ctx => Kick(InputType.Controller);
+        gamepad.Gameplay.Punch.performed += ctx => Punch(InputType.Controller);
+        gamepad.Gameplay.Move.performed += ctx => Movement(InputType.Controller,ctx.ReadValue<float>());
+        gamepad.Gameplay.Move.canceled += ctx => Movement(InputType.Controller,0);
+        
+        keyboard = new Keyboard();
+        keyboard.Gameplay.Dash.performed += ctx => Dash(InputType.Keyboard);
+        keyboard.Gameplay.Jump.performed += ctx => Jump(InputType.Keyboard);
+        keyboard.Gameplay.Kick.performed += ctx => Kick(InputType.Keyboard);
+        keyboard.Gameplay.Punch.performed += ctx => Punch(InputType.Keyboard);
+        keyboard.Gameplay.Move.performed += ctx => Movement(InputType.Keyboard,ctx.ReadValue<float>());
+        keyboard.Gameplay.Move.canceled += ctx => Movement(InputType.Keyboard,0);
+        OnEnableKeyboard();
+        OnEnableGamepad();
+        
         characterManager = GameManager.Instance.characterManager;
         transform = GetComponent<Transform>();
         rb = GetComponent<Rigidbody2D>();
@@ -78,7 +103,7 @@ public class PlayerController : MonoBehaviour
     }
 
     void Update()
-    {
+    {/*
         if (Input.GetKeyDown(KeyCode.J) && !isStartedAnimation)
         {
             isStartedAnimation = true;
@@ -90,7 +115,7 @@ public class PlayerController : MonoBehaviour
             isStartedAnimation = true;
             typeAnimation = "Kick";
             time = 0;
-        }
+        }*/
 
         if (isStartedAnimation)
         {
@@ -115,19 +140,19 @@ public class PlayerController : MonoBehaviour
         if (!string.IsNullOrEmpty(typeAnimation))
             animator.SetBool(typeAnimation, isStartedAnimation);
         
-        move = Input.GetAxis("Horizontal");
-        if (!isDashing)
-        {
-            if (move > 0)
-            {
-                spriteRenderer.flipX = false;
-            }
-            else if (move < 0)
-            {
-                spriteRenderer.flipX = true;
-            }
-            rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
-        }
+        /*  move = Input.GetAxis("Horizontal");
+          if (!isDashing)
+          {
+              if (move > 0)
+              {
+                  spriteRenderer.flipX = false;
+              }
+              else if (move < 0)
+              {
+                  spriteRenderer.flipX = true;
+              }
+              rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
+          }
 
         if (Input.GetButtonDown("Jump") && onGround)
         {
@@ -137,10 +162,56 @@ public class PlayerController : MonoBehaviour
             animator.SetBool(IsJumping, true);
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        if (Input.GetKeyDown(KeyCode.LeftShift) )
+        {
+            StartCoroutine(Dash());
+        }*/
+     }
+
+    private void Dash(InputType inputTry)
+    {
+        if (inputTry == inputType && canDash)
         {
             StartCoroutine(Dash());
         }
+    }
+
+    private void Punch(InputType inputTry)
+    {
+        if(inputTry != inputType || isStartedAnimation) return;
+        isStartedAnimation = true;
+        typeAnimation = "Punch";
+        time = 0;
+    }
+    private void Kick(InputType inputTry)
+    {
+        Debug.Log("kick");
+        if(inputTry != inputType || isStartedAnimation) return;
+        isStartedAnimation = true;
+        typeAnimation = "Kick";
+        time = 0;
+    }
+    private void Jump(InputType inputTry)
+    {
+        if (inputTry != inputType || !onGround) return;
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
+        onGround = false;
+        animator.SetBool(OnGround, onGround);
+        animator.SetBool(IsJumping, true);
+    }
+
+    private void Movement(InputType inputTry, float move)
+    {
+        if(inputTry != inputType || isDashing) return;
+        if (move > 0)
+        {
+            spriteRenderer.flipX = false;
+        }
+        else if (move < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
+        rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
     }
 
     public void OnCollisionEnter2D(Collision2D other)
@@ -192,7 +263,10 @@ public class PlayerController : MonoBehaviour
         Debug.Log($"{base.gameObject.name} è morto!");
     }
     
-
+    private void OnEnableKeyboard() => keyboard.Gameplay.Enable();
+    private void OnDisableKeyboard() => keyboard.Gameplay.Disable();
+    private void OnEnableGamepad() => gamepad.Gameplay.Enable();
+    private void OnDisableGamepad() => gamepad.Gameplay.Disable();
     public void EnablePunchHitbox()  => punchHitbox.EnableHitbox();
     public void DisablePunchHitbox() => punchHitbox.DisableHitbox();
     public void EnableKickHitbox()   => kickHitbox.EnableHitbox();
