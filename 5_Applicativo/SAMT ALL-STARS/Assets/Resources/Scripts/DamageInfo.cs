@@ -10,11 +10,14 @@ public struct DamageInfo
     public GameObject Target;    // chi viene colpito
     public GameObject Attacker;  // chi ha colpito (utile per punti, combo, knockback...)
     public int Damage;           // quanto danno
+    public string HitSfx;        // nome del suono da riprodurre quando il colpo va a segno ("punch"/"kick")
 
-    public DamageInfo(GameObject target, GameObject attacker, int damage)
+    // hitSfx ha un valore di default (null), così il vecchio codice che non lo passa continua a compilare.
+    public DamageInfo(GameObject target, GameObject attacker, int damage, string hitSfx = null)
     {
         Target = target;
         Attacker = attacker;
         Damage = damage;
+        HitSfx = hitSfx;
     }
 }
