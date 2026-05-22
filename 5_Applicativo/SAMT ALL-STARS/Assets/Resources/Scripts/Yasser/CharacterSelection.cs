@@ -8,19 +8,7 @@ public class CharacterSelection : MonoBehaviour
 {
     private Gamepad gamepad;
     
-    private CharacterManager characterManager;
     private bool isLoadedScene;
-
-    public RuntimeAnimatorController sidonController;
-    public RuntimeAnimatorController ivanController;
-    public RuntimeAnimatorController quanController;
-    public RuntimeAnimatorController yasserController;
-
-    public Sprite sidonSprite;
-    public Sprite ivanSprite;
-    public Sprite quanSprite;
-    public Sprite yasserSprite;
-
 
     public static string player1Character;
     public static string player2Character;
@@ -65,20 +53,7 @@ public class CharacterSelection : MonoBehaviour
         gamepad.Gameplay.Move.canceled += ctx => axis2 = ctx.ReadValue<float>();
         gamepad.Gameplay.Jump.performed += ctx => karl = ctx.ReadValueAsButton();
         
-        
         isLoadedScene = false;
-        characterManager = GameManager.Instance.characterManager;
-        characterManager.getCharByName("sidon").Sprite = sidonSprite;
-        characterManager.getCharByName("ivan").Sprite = ivanSprite;
-        characterManager.getCharByName("quan").Sprite = quanSprite;
-        characterManager.getCharByName("yasser").Sprite = yasserSprite;
-
-        characterManager.getCharByName("sidon").Controller = sidonController;
-        characterManager.getCharByName("ivan").Controller = ivanController;
-        characterManager.getCharByName("quan").Controller = quanController;
-        characterManager.getCharByName("yasser").Controller = yasserController;
-
-        
 
         player1Character = string.Empty;
         player2Character = string.Empty;

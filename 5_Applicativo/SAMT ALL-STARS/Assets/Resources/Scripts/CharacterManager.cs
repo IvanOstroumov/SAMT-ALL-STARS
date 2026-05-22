@@ -13,6 +13,7 @@ namespace Resources.Scripts
         {
             try
             {
+                characters = new List<Character>();
                 getCharsFromJSON();
             }
             catch (Exception e)
@@ -26,6 +27,7 @@ namespace Resources.Scripts
 
         public Character getCharByName(string name)
         {
+            name = name.ToLower();
             foreach (var character in characters)
             {
                 if (character.Data.Name == name)
@@ -45,9 +47,7 @@ namespace Resources.Scripts
             }
 
             CharacterDataList jsonList = JsonUtility.FromJson<CharacterDataList>(jsonFile.text);
-
-            characters = new List<Character>();
-
+            
             foreach (CharacterData data in jsonList.characters)
             {
                 Character character = new Character(data, data.MaxHp, null, data.duration, data.cooldown,null,null);

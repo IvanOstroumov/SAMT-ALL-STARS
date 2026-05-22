@@ -4,8 +4,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-
-    // Dichiara solo la variabile, NON fare = new CharacterManager() qui!
+    
     public CharacterManager characterManager;
 
     private void Awake()

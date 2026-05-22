@@ -24,8 +24,7 @@ public class PlayerController : MonoBehaviour
     private static readonly int IsDashing = Animator.StringToHash("IsDashing");
     public float speed = 1.5f;
     public float jumpPower = 10f;
-
-   // private float move;
+    
     public LayerMask groundLayer;
     private bool onGround;
 
@@ -134,19 +133,7 @@ public class PlayerController : MonoBehaviour
     }
 
     void Update()
-    {/*
-        if (Input.GetKeyDown(KeyCode.J) && !isStartedAnimation)
-        {
-            isStartedAnimation = true;
-            typeAnimation = "Punch";
-            time = 0;
-        }
-        if (Input.GetKeyDown(KeyCode.K) && !isStartedAnimation)
-        {
-            isStartedAnimation = true;
-            typeAnimation = "Kick";
-            time = 0;
-        }*/
+    {
 
         if (isStartedAnimation)
         {
@@ -170,34 +157,7 @@ public class PlayerController : MonoBehaviour
         
         if (!string.IsNullOrEmpty(typeAnimation))
             animator.SetBool(typeAnimation, isStartedAnimation);
-        
-        /*  move = Input.GetAxis("Horizontal");
-          if (!isDashing)
-          {
-              if (move > 0)
-              {
-                  spriteRenderer.flipX = false;
-              }
-              else if (move < 0)
-              {
-                  spriteRenderer.flipX = true;
-              }
-              rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
-          }
-
-        if (Input.GetButtonDown("Jump") && onGround)
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
-            onGround = false;
-            animator.SetBool(OnGround, onGround);
-            animator.SetBool(IsJumping, true);
-        }
-
-        if (Input.GetKeyDown(KeyCode.LeftShift) )
-        {
-            StartCoroutine(Dash());
-        }*/
-     }
+    }
 
     private void Dash(InputType inputTry)
     {
