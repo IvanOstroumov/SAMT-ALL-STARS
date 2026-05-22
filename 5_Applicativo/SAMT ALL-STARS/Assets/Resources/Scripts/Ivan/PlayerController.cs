@@ -189,6 +189,7 @@ public class PlayerController : MonoBehaviour
         onGround = false;
         animator.SetBool(OnGround, onGround);
         animator.SetBool(IsJumping, true);
+        AudioManager.Instance.PlaySFX("jump");
     }
 
     private void Movement(InputType inputTry, float move)
@@ -237,6 +238,7 @@ public class PlayerController : MonoBehaviour
     {
         canDash = false;
         isDashing = true;
+        AudioManager.Instance.PlaySFX("dash");
         animator.SetBool(IsDashing, isDashing);
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
@@ -261,6 +263,8 @@ public class PlayerController : MonoBehaviour
     private void Die()
     {
         Debug.Log($"{base.gameObject.name} è morto!");
+        // Quando un player muore, la partita è vinta: faccio partire il suono di vittoria.
+        AudioManager.Instance.PlaySFX("win");
     }
     
     private void OnEnableKeyboard() => keyboard.Gameplay.Enable();

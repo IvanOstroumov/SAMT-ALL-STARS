@@ -211,6 +211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
+  hitSfx: punch
 --- !u!1 &850367403
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,6 +304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 7
+  hitSfx: kick
 --- !u!1 &1107403866
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,6 +495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 7
+  hitSfx: kick
 --- !u!1 &1708335976
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,6 +798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
+  hitSfx: punch
 --- !u!61 &1214787364886823943
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1424,7 +1428,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7164173463823156923}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!4 &5356841578923089929
 Transform:
   m_ObjectHideFlags: 0
@@ -1972,11 +1976,11 @@ GameObject:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 4721745495909425591}
   - {fileID: 4588567636895933139}
   - {fileID: 5766390142310477848}
   - {fileID: 7223489382609135191}
   - {fileID: 5356841578923089929}
-  - {fileID: 4721745495909425591}
   - {fileID: 6387100045111438422}
   - {fileID: 3688221673284628260}
   - {fileID: 8968126653464009722}

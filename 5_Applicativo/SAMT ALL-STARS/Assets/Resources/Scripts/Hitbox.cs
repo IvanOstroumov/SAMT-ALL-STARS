@@ -5,6 +5,10 @@ public class Hitbox : MonoBehaviour
 {
     public int damage = 10;
 
+    // Nome del suono da far partire quando questa hitbox segna un colpo.
+    // Impostalo nell'Inspector: "punch" sulla hitbox del pugno, "kick" su quella del calcio.
+    public string hitSfx = "punch";
+
     private Collider2D col;
     private GameObject owner;   // il player che possiede questa hitbox = chi colpisce
 
@@ -50,7 +54,7 @@ public class Hitbox : MonoBehaviour
         alreadyHit.Add(target.gameObject);
 
         // NON chiamo più target.TakeDamage(...) direttamente.
-        // Annuncio l'evento: chi è interessato reagirà.
-        CombatEvents.RaiseHit(new DamageInfo(target.gameObject, owner, damage));
+        // Annuncio l'evento: chi è interessato reagirà (il player col danno, l'AudioManager col suono).
+        CombatEvents.RaiseHit(new DamageInfo(target.gameObject, owner, damage, hitSfx));
     }
 }
