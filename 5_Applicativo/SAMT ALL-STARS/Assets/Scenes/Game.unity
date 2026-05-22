@@ -347,6 +347,60 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1332626271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1332626273}
+  - component: {fileID: 1332626272}
+  m_Layer: 0
+  m_Name: DevBootstrap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1332626272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332626271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81c5025913bb7e54e83787821e4317a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player1Default: ivan
+  player2Default: quan
+  sidonSprite: {fileID: 3106083578899928171, guid: 18d15105b51c67c4f8b329e50cf3e436, type: 3}
+  ivanSprite: {fileID: -1388705384132567281, guid: aee255836b4383c4b80f67bc93401053, type: 3}
+  quanSprite: {fileID: 5192957241305207599, guid: c80d8c506bba4a74fbc62dd224c264c2, type: 3}
+  yasserSprite: {fileID: -83035591878631178, guid: 69f7a4297a59f414299f666679fe3e65, type: 3}
+  sidonController: {fileID: 9100000, guid: 982500b90b8007943a96ab1391eba728, type: 2}
+  ivanController: {fileID: 9100000, guid: 008d53d5bdb20d9499337a0357ddfd68, type: 2}
+  quanController: {fileID: 9100000, guid: 0a4341a5d3eb0804cb2caa7eedd6573f, type: 2}
+  yasserController: {fileID: 9100000, guid: 7d3f9c92a4d7bda449a5f171436134e5, type: 2}
+--- !u!4 &1332626273
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332626271}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.23191, y: -2.54797, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1350707498
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,6 +548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f90fefdf10ec9f4ebdfe9c698c53488, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultCharacter: ivan
   speed: 5
   jumpPower: 8
   groundLayer:
@@ -1274,6 +1329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f90fefdf10ec9f4ebdfe9c698c53488, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultCharacter: ivan
   speed: 5
   jumpPower: 8
   groundLayer:
@@ -1771,10 +1827,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87aada3f1e63eea48b4847a9cf468c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sidon: {fileID: -1727020357278934172, guid: a1f597c2c2ea9f34eb0544ca84ef5e35, type: 3}
-  ivan: {fileID: 2590305018582739501, guid: 4c26d2c701ff12148ae39b4e0c54ebae, type: 3}
-  quan: {fileID: -4298264088890385034, guid: f6f7d6dee38205247bbea92f6a32465a, type: 3}
-  yasser: {fileID: 5785779024571618199, guid: 80f48126cfc3d4340b770f18cdb4e567, type: 3}
 --- !u!61 &8556540977931523443
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1931,3 +1983,4 @@ SceneRoots:
   - {fileID: 2907901030335858959}
   - {fileID: 1708335982}
   - {fileID: 1107403868}
+  - {fileID: 1332626273}
