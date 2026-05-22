@@ -1,6 +1,7 @@
 using System;
 using Resources.Scripts;
 using System.Collections;
+using TMPro;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -10,6 +11,8 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Test / Default")]
     [SerializeField] private string defaultCharacter = "ivan";
+    private TextMeshProUGUI hpText;
+    private TextMeshProUGUI nameText;
     
     private Keyboard keyboard;
     private Gamepad gamepad;
@@ -43,10 +46,6 @@ public class PlayerController : MonoBehaviour
     private string typeAnimation;
 
     private Animator animator;
-
-    [Header("Vita")]
-    public int maxHealth = 100;
-    private int currentHealth;
 
     [Header("Hitbox")]
     public Hitbox punchHitbox;
@@ -106,17 +105,21 @@ public class PlayerController : MonoBehaviour
         onGround = false;
         animator = GetComponent<Animator>();
         isStartedAnimation = false;
-        currentHealth = maxHealth;
+        
 
         if (gameObject.name == "Player_Joystick")
         {
             inputType = InputType.Controller;
             playerName = "Player2";
+            nameText = GameObject.Find("Player_2").GetComponent<TextMeshProUGUI>();
+            hpText =  GameObject.Find("Hp_Player_2").GetComponent<TextMeshProUGUI>();
         }
         else 
         {
-             inputType = InputType.Keyboard;
+            inputType = InputType.Keyboard;
             playerName = "Player1";
+            nameText = GameObject.Find("Player_1").GetComponent<TextMeshProUGUI>();
+            hpText =  GameObject.Find("Hp_Player_1").GetComponent<TextMeshProUGUI>();
         }
         string chosen = PlayerPrefs.GetString(playerName, defaultCharacter);
         character = characterManager.getCharByName(chosen);
@@ -129,7 +132,8 @@ public class PlayerController : MonoBehaviour
 
         animator.runtimeAnimatorController = character.Controller;
         spriteRenderer.sprite = character.Sprite;
-
+        nameText.text = character.Data.Name;
+        hpText.text = character.Data.MaxHp + "Hp";
     }
 
     void Update()
@@ -252,10 +256,11 @@ public class PlayerController : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        currentHealth -= damage;
-        Debug.Log($"{base.gameObject.name} ha {currentHealth} HP");
+        character.CurrentHp -= damage;
+        Debug.Log($"{base.gameObject.name} ha {character.CurrentHp} HP");
 
-        if (currentHealth <= 0) Die();
+        if (character.CurrentHp <= 0) Die();
+        hpText.text = character.CurrentHp + "Hp";
     }
 
     private void Die()

@@ -26,7 +26,7 @@ namespace Resources.Scripts
 
         public CharacterData Data => data;
 
-        public int CurrentHp => currentHp;
+        public int CurrentHp { get ; set ; }
 
         public Ability Ability => ability;
 
