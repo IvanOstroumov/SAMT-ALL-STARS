@@ -434,6 +434,7 @@ GameObject:
   - component: {fileID: 519420030}
   - component: {fileID: 519420033}
   - component: {fileID: 519420034}
+  - component: {fileID: 519420035}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -580,17 +581,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a9f37a55486ede40be058d1f8e1261c, type: 3}
+  m_Script: {fileID: 11500000, guid: 54ad7b25d3d269d44bcc682d888a271f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sidonController: {fileID: 9100000, guid: 982500b90b8007943a96ab1391eba728, type: 2}
-  ivanController: {fileID: 9100000, guid: b96ffcfbf5896f44f854c7e5ecefc18d, type: 2}
-  quanController: {fileID: 9100000, guid: 6a83c2014e72aef489ac8c8acd39af69, type: 2}
-  yasserController: {fileID: 9100000, guid: 91eaa2109a57d8946b4df0e5ba03c4c9, type: 2}
-  sidonSprite: {fileID: 3106083578899928171, guid: 18d15105b51c67c4f8b329e50cf3e436, type: 3}
+  ivanController: {fileID: 9100000, guid: 008d53d5bdb20d9499337a0357ddfd68, type: 2}
+  quanController: {fileID: 9100000, guid: 0a4341a5d3eb0804cb2caa7eedd6573f, type: 2}
+  yasserController: {fileID: 9100000, guid: 7d3f9c92a4d7bda449a5f171436134e5, type: 2}
+  sidonSprite: {fileID: 3106083578899928171, guid: 7e920ff60e09ae94b920a0a21bde5367, type: 3}
   ivanSprite: {fileID: -1388705384132567281, guid: aee255836b4383c4b80f67bc93401053, type: 3}
   quanSprite: {fileID: 5192957241305207599, guid: c80d8c506bba4a74fbc62dd224c264c2, type: 3}
-  yasserSprite: {fileID: 3898995933321035545, guid: 2c056f13737c1be4b9dab40ec53a24d3, type: 3}
+  yasserSprite: {fileID: -83035591878631178, guid: 69f7a4297a59f414299f666679fe3e65, type: 3}
+--- !u!114 &519420035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f4c2f718732b24dafe4c983aa12dfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &550262133
 GameObject:
   m_ObjectHideFlags: 0
@@ -2685,7 +2698,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3573135436295599652, guid: 2e232f0f155844b43aba8b8bb265f925, type: 3}
+  m_Sprite: {fileID: 3573135436295599652, guid: 738db7515d034604b99eec5c10bec320, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3034,7 +3047,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3573135436295599652, guid: 2e232f0f155844b43aba8b8bb265f925, type: 3}
+  m_Sprite: {fileID: 3573135436295599652, guid: 738db7515d034604b99eec5c10bec320, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
