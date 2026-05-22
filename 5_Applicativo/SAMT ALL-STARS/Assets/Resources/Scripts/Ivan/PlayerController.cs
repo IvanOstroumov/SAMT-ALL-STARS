@@ -8,6 +8,9 @@ using UnityEngine;
 [RequireComponent(typeof(Transform))]
 public class PlayerController : MonoBehaviour
 {
+    [Header("Test / Default")]
+    [SerializeField] private string defaultCharacter = "ivan";
+    
     private Keyboard keyboard;
     private Gamepad gamepad;
     
@@ -21,8 +24,7 @@ public class PlayerController : MonoBehaviour
     private static readonly int IsDashing = Animator.StringToHash("IsDashing");
     public float speed = 1.5f;
     public float jumpPower = 10f;
-
-   // private float move;
+    
     public LayerMask groundLayer;
     private bool onGround;
 
@@ -54,6 +56,27 @@ public class PlayerController : MonoBehaviour
     {
         
         
+    }
+
+    // OnEnable/OnDisable: qui il player si ISCRIVE e si DISISCRIVE dall'evento.
+    // Iscriversi/disiscriversi in coppia evita "iscrizioni fantasma" quando il
+    // player viene disattivato o distrutto (es. fine partita, cambio scena).
+    private void OnEnable()
+    {
+        CombatEvents.OnHit += HandleHit;
+    }
+
+    private void OnDisable()
+    {
+        CombatEvents.OnHit -= HandleHit;
+    }
+
+    // IL LISTENER: viene chiamato per OGNI colpo del gioco.
+    // Controllo "il bersaglio sono io?": solo allora applico il danno.
+    private void HandleHit(DamageInfo info)
+    {
+        if (info.Target != gameObject) return;  // non sono io il bersaglio -> ignoro
+        TakeDamage(info.Damage);
     }
 
     void Start()
@@ -95,27 +118,22 @@ public class PlayerController : MonoBehaviour
              inputType = InputType.Keyboard;
             playerName = "Player1";
         }
-        character = characterManager.getCharByName(PlayerPrefs.GetString(playerName));
+        string chosen = PlayerPrefs.GetString(playerName, defaultCharacter);
+        character = characterManager.getCharByName(chosen);
 
-        GetComponent<Animator>().runtimeAnimatorController = character.Controller;
-        GetComponent<SpriteRenderer>().sprite = character.Sprite;
+        if (character == null)
+        {
+            Debug.LogError($"Personaggio '{chosen}' non trovato per {playerName}. Controlla il nome.");
+            return; // evito il NullReferenceException sulle righe sotto
+        }
+
+        animator.runtimeAnimatorController = character.Controller;
+        spriteRenderer.sprite = character.Sprite;
 
     }
 
     void Update()
-    {/*
-        if (Input.GetKeyDown(KeyCode.J) && !isStartedAnimation)
-        {
-            isStartedAnimation = true;
-            typeAnimation = "Punch";
-            time = 0;
-        }
-        if (Input.GetKeyDown(KeyCode.K) && !isStartedAnimation)
-        {
-            isStartedAnimation = true;
-            typeAnimation = "Kick";
-            time = 0;
-        }*/
+    {
 
         if (isStartedAnimation)
         {
@@ -139,34 +157,7 @@ public class PlayerController : MonoBehaviour
         
         if (!string.IsNullOrEmpty(typeAnimation))
             animator.SetBool(typeAnimation, isStartedAnimation);
-        
-        /*  move = Input.GetAxis("Horizontal");
-          if (!isDashing)
-          {
-              if (move > 0)
-              {
-                  spriteRenderer.flipX = false;
-              }
-              else if (move < 0)
-              {
-                  spriteRenderer.flipX = true;
-              }
-              rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
-          }
-
-        if (Input.GetButtonDown("Jump") && onGround)
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
-            onGround = false;
-            animator.SetBool(OnGround, onGround);
-            animator.SetBool(IsJumping, true);
-        }
-
-        if (Input.GetKeyDown(KeyCode.LeftShift) )
-        {
-            StartCoroutine(Dash());
-        }*/
-     }
+    }
 
     private void Dash(InputType inputTry)
     {
@@ -205,13 +196,22 @@ public class PlayerController : MonoBehaviour
         if(inputTry != inputType || isDashing) return;
         if (move > 0)
         {
-            spriteRenderer.flipX = false;
+            SetFacing(true);   // guarda a destra
         }
         else if (move < 0)
         {
-            spriteRenderer.flipX = true;
+            SetFacing(false);  // guarda a sinistra
         }
         rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
+    }
+
+    // Gira l'INTERO player (sprite + hitbox figlie) invertendo il segno di localScale.x.
+    // Mathf.Abs preserva la grandezza della scala: cambia solo la direzione, non le dimensioni.
+    private void SetFacing(bool faceRight)
+    {
+        Vector3 s = transform.localScale;
+        s.x = Mathf.Abs(s.x) * (faceRight ? 1f : -1f);
+        transform.localScale = s;
     }
 
     public void OnCollisionEnter2D(Collision2D other)
@@ -240,7 +240,7 @@ public class PlayerController : MonoBehaviour
         animator.SetBool(IsDashing, isDashing);
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
-        float direction = spriteRenderer.flipX ? -1f : 1f;
+        float direction = transform.localScale.x < 0 ? -1f : 1f;
         rb.linearVelocity = new Vector2(direction * dashPower, 0f);
         yield return new WaitForSeconds(dashTime);
         rb.gravityScale = originalGravity;
