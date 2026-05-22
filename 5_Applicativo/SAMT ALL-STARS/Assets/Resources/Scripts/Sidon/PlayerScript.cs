@@ -8,8 +8,12 @@ public class PlayerScript : MonoBehaviour
     private bool isStartedAnimation;
     private float time;
     public float animationTime;
+<<<<<<< Updated upstream
     private string animation;
     
+=======
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+>>>>>>> Stashed changes
     void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
@@ -41,19 +45,30 @@ public class PlayerScript : MonoBehaviour
                 isStartedAnimation = false;
             }
         }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 
         if (Input.GetKeyDown(KeyCode.D)) 
         {
             transform.localScale = new Vector3(
+<<<<<<< Updated upstream
                 Mathf.Abs(transform.localScale.x),
                 transform.localScale.y,
                 transform.localScale.z
             );
+=======
+                    Mathf.Abs(transform.localScale.x),
+                    transform.localScale.y,
+                    transform.localScale.z
+                );
+>>>>>>> Stashed changes
         }
         if (Input.GetKeyDown(KeyCode.A)) 
         {
             transform.localScale = new Vector3(
+<<<<<<< Updated upstream
                 - Mathf.Abs(transform.localScale.x),
                 transform.localScale.y,
                 transform.localScale.z
@@ -61,5 +76,16 @@ public class PlayerScript : MonoBehaviour
         }
         
         animator.SetBool(animation, isStartedAnimation);
+=======
+                    -Mathf.Abs(transform.localScale.x),
+                    transform.localScale.y,
+                    transform.localScale.z
+                );
+        }
+        
+        animator.SetBool("Punch", isStartedAnimation);
+ 
+        
+>>>>>>> Stashed changes
     }
 }
