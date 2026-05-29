@@ -1,7 +1,13 @@
+using Resources.Scripts;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
 
+// Schermata Settings: collega gli slider audio al mixer e gestisce
+// la scelta della periferica di gioco (tastiera o controller).
+//
+// I volumi vengono salvati in PlayerPrefs e riapplicati ad ogni avvio,
+// cosi quello che il giocatore imposta una volta resta per le prossime sessioni.
 public class SettingsManager : MonoBehaviour
 {
     [Header("Audio")]
@@ -32,7 +38,7 @@ public class SettingsManager : MonoBehaviour
         musicSlider.onValueChanged.RemoveAllListeners();
         sfxSlider.onValueChanged.RemoveAllListeners();
         voiceSlider.onValueChanged.RemoveAllListeners();
-
+        
         float master = PlayerPrefs.GetFloat("MasterVolume", 1f);
         float music  = PlayerPrefs.GetFloat("MusicVolume",  1f);
         float sfx    = PlayerPrefs.GetFloat("SFXVolume",    1f);
@@ -42,25 +48,26 @@ public class SettingsManager : MonoBehaviour
         musicSlider.value  = music;
         sfxSlider.value    = sfx;
         voiceSlider.value  = voice;
-        
+
         ApplyVolume("MasterVolume", master);
         ApplyVolume("MusicVolume",  music);
         ApplyVolume("SFXVolume",    sfx);
         ApplyVolume("VoiceVolume",  voice);
-        
+
         masterSlider.onValueChanged.AddListener(SetMasterVolume);
         musicSlider.onValueChanged.AddListener(SetMusicVolume);
         sfxSlider.onValueChanged.AddListener(SetSfxVolume);
         voiceSlider.onValueChanged.AddListener(SetVoiceVolume);
 
-
+        LogManager.Info($"Settings: master={master:F2} music={music:F2} sfx={sfx:F2} voice={voice:F2}");
 
         ShowController();
     }
-    
+
     private void ApplyVolume(string parameter, float value)
     {
         float db = value > 0.0001f ? Mathf.Log10(value) * 20f : -80f;
+        if (parameter == "VoiceVolume") db += 3f;
         mixer.SetFloat(parameter, db);
     }
 
@@ -92,6 +99,7 @@ public class SettingsManager : MonoBehaviour
         PlayerPrefs.Save();
     }
 
+    // Bottoni "PC" / "Controller" della UI: mostrano l'immagine giusta dei tasti.
     public void ShowPC()
     {
         keyboardButtonClicked.SetActive(true);

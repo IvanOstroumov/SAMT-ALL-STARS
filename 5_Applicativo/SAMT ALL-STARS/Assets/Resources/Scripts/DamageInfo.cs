@@ -1,18 +1,14 @@
 using UnityEngine;
 
-/// <summary>
-/// Il "pacchetto" di dati che viaggia insieme all'evento di un colpo.
-/// Contiene tutto quello che serve a chi ascolta per reagire.
-/// È una struct (tipo a valore) perché è piccola e usa-e-getta.
-/// </summary>
+// Pacchetto che viaggia con ogni colpo del gioco.
+// Lo crea la Hitbox quando va a segno e lo passa a CombatEvents.RaiseHit().
 public struct DamageInfo
 {
-    public GameObject Target;    // chi viene colpito
-    public GameObject Attacker;  // chi ha colpito (utile per punti, combo, knockback...)
-    public int Damage;           // quanto danno
-    public string HitSfx;        // nome del suono da riprodurre quando il colpo va a segno ("punch"/"kick")
-
-    // hitSfx ha un valore di default (null), così il vecchio codice che non lo passa continua a compilare.
+    public GameObject Target;    
+    public GameObject Attacker;  
+    public int Damage;
+    public string HitSfx;       
+    
     public DamageInfo(GameObject target, GameObject attacker, int damage, string hitSfx = null)
     {
         Target = target;

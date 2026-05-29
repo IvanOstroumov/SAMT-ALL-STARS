@@ -110,3 +110,6 @@ Thumbs.db
 # Keep actual documents (.doc, .docx)
 !*.doc
 !*.docx
+
+
+!5_Applicativo/SAMT\ ALL-STARS/Build/**

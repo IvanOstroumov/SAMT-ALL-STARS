@@ -1,5 +1,9 @@
-﻿namespace Resources.Scripts
+namespace Resources.Scripts
 {
+    // Una skill / mossa speciale di un personaggio.
+    // Per ora e' solo un contenitore di dati: nome, danno, durata e cooldown.
+    // L'integrazione vera col gameplay arrivera' quando le mosse speciali
+    // verranno collegate ai controller.
     public class Ability
     {
         private string name;
@@ -16,11 +20,8 @@
         }
 
         public string Name => name;
-
         public int Damage => damage;
-
         public int Duration => duration;
-
         public int Cooldown => cooldown;
     }
 }

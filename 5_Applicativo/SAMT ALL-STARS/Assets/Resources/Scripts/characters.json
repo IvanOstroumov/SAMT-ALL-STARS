@@ -1,44 +1,44 @@
 {
-  "characters": [
-    {
-      "name": "quan",
-      "maxHp": 10,
-      "speed": 1.1,
-      "description": "Quan è nato nei vicoli nascosti di Xiaohongshu, un luogo dove gli spiriti camminano accanto agli uomini. Da piccolo nessuno riusciva mai a toccarlo, sembrava sparire nel nulla ogni volta che arrivava un pericolo. A 7 anni incontrò il Monaco Trasparente che gli insegnò l’arte del Ghosting, la tecnica proibita dei fantasmini. Quan si allenò così tanto da riuscire a rendere il proprio corpo intoccabile persino per i pugni degli dei. Ora combatte entrando e uscendo dalla realtà stessa, lasciando dietro di sé solo un’ombra e la paura nei suoi nemici. \n Ghosting: diventa un fantasmino per 0.25s, non subisce danni.",
-      "winCount": 0,
-      "gamesPlayed": 0,
-      "cooldown": 7.0,
-      "duration": 0.25
-    },
-    {
-      "name": "sidon",
-      "maxHp": 250,
-      "speed": 1.25,
-      "description": "Sidon è nato nelle leggendarie strade di Pincode, dove il calcio è più importante della vita stessa. Fin da piccolo tirava pallonate così forti da rompere muri, alberi e talvolta pure dimensioni parallele. A 10 anni trovò il Pallone Supremo di Roberto Carlos e imparò il tiro maledetto che curva persino il destino. Dopo anni di allenamento riuscì a creare il colpo perfetto: una palla che attraversa tutta l’arena distruggendo tutto ciò che incontra. Oggi Sidon combatte cercando l’avversario degno del suo tiro definitivo. \n Roberto Carlos: tira un pallone orizzontale. 25 dmg. è figo",
-      "winCount": 10,
-      "gamesPlayed": 0,
-      "cooldown": 13.0,
-      "duration": 0.0
-    },
-    {
-      "name": "yasser",
-      "maxHp": 300,
-      "speed": 1.0,
-      "description": "Yasser è nato nel paese pieno di nuvole, ma non nuvole qualsiasi: nuvole di fumo. Sin dall’infanzia iniziò a fumare e capì che grazie ad esso poteva trascendere i limiti umani e superare gli dei. Cominciò all’età di 3 anni appena ebbe l’abilità di aspirare ed espirare, potenziandosi di drummino in drummino. Un giorno incontrò il grande maestro dei drummoni e rimase con lui per 100 anni per imparare la tecnica del grande drummino. Scoprì però che il fumo nasce anche dalle esplosioni, così iniziò a creare la sua arte segreta della mini-bomba, preparandosi al leggendario Drumbomb. \n LilBoom: lancia una bomba che esplode a contatto. 20 dmg.",
-      "winCount": 0,
-      "gamesPlayed": 0,
-      "cooldown": 11.0,
-      "duration": 0.0
-    },
-    {
-      "name": "ivan",
-      "maxHp": 250,
-      "speed": 1.0,
-      "description": "Ivan nacque nella biblioteca infinita di Arebaetaotisetik, dove ogni parola possiede un potere assoluto. Mentre gli altri bambini imparavano a leggere, Ivan imparava a trasformare i pensieri in armi devastanti. A 12 anni riuscì a pronunciare la Parola Perfetta, capace di trapassare mente e corpo nello stesso istante. Da allora iniziò ad allenare il cervello oltre i limiti umani, studiando libri proibiti scritti dagli antichi saggi del codice. Ora combatte sparando frasi intelligenti dalla testa, distruggendo i nemici con la potenza della conoscenza pura. \n Pierce Thought: spara 3 parole verso il nemico. 7 dmg/parola.",
-      "winCount": 0,
-      "gamesPlayed": 0,
-      "cooldown": 10.0,
-      "duration": 0.0
-    }
-  ]
+    "characters": [
+        {
+            "name": "quan",
+            "maxHp": 200,
+            "speed": 1.100000023841858,
+            "description": "Quan è nato nei vicoli nascosti di Xiaohongshu, un luogo dove gli spiriti camminano accanto agli uomini. Da piccolo nessuno riusciva mai a toccarlo, sembrava sparire nel nulla ogni volta che arrivava un pericolo. A 7 anni incontrò il Monaco Trasparente che gli insegnò l’arte del Ghosting, la tecnica proibita dei fantasmini. Quan si allenò così tanto da riuscire a rendere il proprio corpo intoccabile persino per i pugni degli dei. Ora combatte entrando e uscendo dalla realtà stessa, lasciando dietro di sé solo un’ombra e la paura nei suoi nemici.",
+            "winCount": 0,
+            "gamesPlayed": 0,
+            "cooldown": 7.0,
+            "duration": 0.25
+        },
+        {
+            "name": "sidon",
+            "maxHp": 250,
+            "speed": 1.25,
+            "description": "Sidon è nato nelle leggendarie strade di Pincode, dove il calcio è più importante della vita stessa. Fin da piccolo tirava pallonate così forti da rompere muri, alberi e talvolta pure dimensioni parallele. A 10 anni trovò il Pallone Supremo di Roberto Carlos e imparò il tiro maledetto che curva persino il destino. Dopo anni di allenamento riuscì a creare il colpo perfetto: una palla che attraversa tutta l’arena distruggendo tutto ciò che incontra. Oggi Sidon combatte cercando l’avversario degno del suo tiro definitivo.",
+            "winCount": 1,
+            "gamesPlayed": 0,
+            "cooldown": 13.0,
+            "duration": 0.0
+        },
+        {
+            "name": "yasser",
+            "maxHp": 300,
+            "speed": 1.0,
+            "description": "Yasser è nato nel paese pieno di nuvole, ma non nuvole qualsiasi: nuvole di fumo. Sin dall’infanzia iniziò a fumare e capì che grazie ad esso poteva trascendere i limiti umani e superare gli dei. Cominciò all’età di 3 anni appena ebbe l’abilità di aspirare ed espirare, potenziandosi di drummino in drummino. Un giorno incontrò il grande maestro dei drummoni e rimase con lui per 100 anni per imparare la tecnica del grande drummino. Scoprì però che il fumo nasce anche dalle esplosioni, così iniziò a creare la sua arte segreta della mini-bomba, preparandosi al leggendario Drumbomb.",
+            "winCount": 0,
+            "gamesPlayed": 0,
+            "cooldown": 11.0,
+            "duration": 0.0
+        },
+        {
+            "name": "ivan",
+            "maxHp": 250,
+            "speed": 1.0,
+            "description": "Ivan nacque nella biblioteca infinita di Arebaetaotisetik, dove ogni parola possiede un potere assoluto. Mentre gli altri bambini imparavano a leggere, Ivan imparava a trasformare i pensieri in armi devastanti. A 12 anni riuscì a pronunciare la Parola Perfetta, capace di trapassare mente e corpo nello stesso istante. Da allora iniziò ad allenare il cervello oltre i limiti umani, studiando libri proibiti scritti dagli antichi saggi del codice. Ora combatte sparando frasi intelligenti dalla testa, distruggendo i nemici con la potenza della conoscenza pura.",
+            "winCount": 0,
+            "gamesPlayed": 0,
+            "cooldown": 10.0,
+            "duration": 0.0
+        }
+    ]
 }

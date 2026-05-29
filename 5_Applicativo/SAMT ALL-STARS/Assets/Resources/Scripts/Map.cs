@@ -1,21 +1,23 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine;
 
 namespace Resources.Scripts
 {
+    // Mappa selezionabile con nome + immagine preview
     public class Map
     {
         private string name;
-        private Sprite image;
-        
-        public Map(string name, Sprite image)
+        private Sprite background;
+        private Sprite teil;
+
+        public Map(string name, Sprite background, Sprite teil)
         {
             this.name = name;
-            this.image = image;
+            this.background = background;
+            this.teil = teil;
         }
 
         public string Name => name;
-
-        public Sprite Image => image;
+        public Sprite Background => background;
+        public Sprite Teil => teil;
     }
 }
