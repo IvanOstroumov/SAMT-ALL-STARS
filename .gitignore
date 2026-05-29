@@ -112,4 +112,8 @@ Thumbs.db
 !*.docx
 
 
-!5_Applicativo/SAMT\ ALL-STARS/Build/**
+# 1. Rendi visibile la cartella Build a Git, annullando il blocco /[Bb]uild/ iniziale
+!5_Applicativo/SAMT\ ALL-STARS/[Bb]uild/
+
+# 2. Forza Git a non ignorare nessun file all'interno di essa
+!5_Applicativo/SAMT\ ALL-STARS/[Bb]uild/**
