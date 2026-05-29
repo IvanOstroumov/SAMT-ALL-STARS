@@ -1,13 +1,16 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System.IO;
 namespace Resources.Scripts
 {
-    // Carica i personaggi dal JSON all'avvio e li tiene a portata di mano.
+    
     public class CharacterManager
     {
         List<Character> characters;
+        private string SavePath =>
+            Path.Combine(Application.persistentDataPath, "characters.json");
+
 
         public CharacterManager()
         {
@@ -15,15 +18,16 @@ namespace Resources.Scripts
             {
                 characters = new List<Character>();
                 getCharsFromJSON();
-                LogManager.Info($"CharacterManager pronto, {characters.Count} personaggi caricati.");
             }
             catch (Exception e)
             {
-                LogManager.Error("CharacterManager: errore in fase di costruzione", e);
+                Debug.Log(e);
                 throw;
             }
+            
+
         }
-        
+
         public Character getCharByName(string name)
         {
             name = name.ToLower();
@@ -35,28 +39,22 @@ namespace Resources.Scripts
             return null;
         }
 
-        // Legge characters.json da Resources/Scripts e popola la lista.
         public void getCharsFromJSON()
         {
-            TextAsset jsonFile = UnityEngine.Resources.Load<TextAsset>("Scripts/characters");
-
-            if (jsonFile == null)
+            // Se il file non esiste ancora, copia quello di default
+            if (!File.Exists(SavePath))
             {
-                LogManager.Error("characters.json non trovato in Assets/Resources/Scripts/");
-                characters = new List<Character>();   // lista vuota, non null: evita NRE a cascata
-                return;
+                CreateDefaultJSON();
             }
 
-            CharacterDataList jsonList = JsonUtility.FromJson<CharacterDataList>(jsonFile.text);
+            string json = File.ReadAllText(SavePath);
 
+            CharacterDataList jsonList =
+                JsonUtility.FromJson<CharacterDataList>(json);
+            
             foreach (CharacterData data in jsonList.characters)
             {
-<<<<<<< Updated upstream
                 Character character = new Character(data, null, data.duration, data.cooldown,null,null,null);
-=======
-                Character character = new Character(data, data.MaxHp, null,
-                    data.duration, data.cooldown, null, null);
->>>>>>> Stashed changes
                 characters.Add(character);
             }
         }
@@ -65,7 +63,7 @@ namespace Resources.Scripts
         {
             CharacterDataList dataList = new CharacterDataList();
 
-            List<CharacterData> datas = new List<CharacterData>();
+            List<CharacterData> datas = new();
 
             foreach (Character character in characters)
             {
@@ -76,18 +74,35 @@ namespace Resources.Scripts
 
             string json = JsonUtility.ToJson(dataList, true);
 
-            string path = Application.dataPath + "/Resources/Scripts/characters.json";
+            File.WriteAllText(SavePath, json);
 
-            System.IO.File.WriteAllText(path, json);
+            Debug.Log("JSON salvato in: " + SavePath);
+        }
+        
+        private void CreateDefaultJSON()
+        {
+            TextAsset defaultJson =
+                UnityEngine.Resources.Load<TextAsset>("Scripts/characters");
 
-            Debug.Log("JSON salvato in: " + path);
+            if (defaultJson == null)
+            {
+                Debug.LogError(
+                    "characters.json non trovato in Resources/Scripts/"
+                );
+                return;
+            }
+
+            File.WriteAllText(SavePath, defaultJson.text);
+
+            Debug.Log("Creato JSON iniziale in: " + SavePath);
         }
 
-
+        // Wrapper per JsonUtility — contiene l'array di CharacterData
         [Serializable]
         public class CharacterDataList
         {
             public CharacterData[] characters;
         }
+
     }
 }

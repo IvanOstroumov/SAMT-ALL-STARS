@@ -6,38 +6,27 @@ using UnityEngine.UI;
 public class PlayersImport : MonoBehaviour
 {
     private CharacterManager characterManager;
-<<<<<<< Updated upstream
-    [Header("Controllers")]
-=======
 
->>>>>>> Stashed changes
+    [Header("Controllers")]
     public RuntimeAnimatorController sidonController;
     public RuntimeAnimatorController ivanController;
     public RuntimeAnimatorController quanController;
     public RuntimeAnimatorController yasserController;
-<<<<<<< Updated upstream
-    
+
     [Header("Sprites")]
-=======
-
-    GameManager gameManager;
-
->>>>>>> Stashed changes
     public Sprite sidonSprite;
     public Sprite ivanSprite;
     public Sprite quanSprite;
     public Sprite yasserSprite;
-<<<<<<< Updated upstream
-    
+
     [Header("Names")]
     public Sprite sidonText;
     public Sprite ivanText;
     public Sprite quanText;
     public Sprite yasserText;
-    
-=======
 
->>>>>>> Stashed changes
+    GameManager gameManager;
+
     void Start()
     {
         characterManager = GameManager.Instance.characterManager;
@@ -51,7 +40,7 @@ public class PlayersImport : MonoBehaviour
         characterManager.getCharByName("ivan").Controller = ivanController;
         characterManager.getCharByName("quan").Controller = quanController;
         characterManager.getCharByName("yasser").Controller = yasserController;
-        
+
         characterManager.getCharByName("sidon").NameImage = sidonText;
         characterManager.getCharByName("ivan").NameImage = ivanText;
         characterManager.getCharByName("quan").NameImage = quanText;

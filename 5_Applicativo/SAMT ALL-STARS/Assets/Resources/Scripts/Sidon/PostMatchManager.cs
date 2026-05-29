@@ -25,6 +25,11 @@ public class PostMatchManager : MonoBehaviour
         gamepad = new Gamepad();
         gamepad.Gameplay.Enable();
         gamepad.Gameplay.Jump.performed += ctx => Exit();
+        gamepad.Gameplay.Move.performed += ctx => Nothing();
+        gamepad.Gameplay.Kick.performed += ctx => Nothing();
+        gamepad.Gameplay.Punch.performed += ctx => Nothing();
+        gamepad.Gameplay.Move.performed += ctx => Nothing();
+        gamepad.Gameplay.Move.canceled += ctx => Nothing();
         
         characterManager = GameManager.Instance.characterManager;
         winnerCharacter = characterManager.getCharByName(PlayerPrefs.GetString("Winner"));
@@ -62,11 +67,13 @@ public class PostMatchManager : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Backspace))
+        if (Input.GetKeyDown(KeyCode.Return))
         {
             Exit();
         }
     }
+    
+    private void Nothing(){}
 
     private void Exit()
     {

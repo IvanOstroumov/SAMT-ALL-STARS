@@ -450,7 +450,7 @@ GameObject:
   - component: {fileID: 718777040}
   - component: {fileID: 718777041}
   - component: {fileID: 718777042}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PunchHitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -530,7 +530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 936a49eb1a96284478d4e138b7541cb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
+  damage: 25
   hitSfx: punch
 --- !u!1 &850367403
 GameObject:
@@ -543,7 +543,7 @@ GameObject:
   - component: {fileID: 850367404}
   - component: {fileID: 850367405}
   - component: {fileID: 850367406}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: KickHitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -623,7 +623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 936a49eb1a96284478d4e138b7541cb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 30
+  damage: 25
   hitSfx: punch
 --- !u!1 &898563554
 GameObject:
@@ -941,60 +941,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1332626271
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1332626273}
-  - component: {fileID: 1332626272}
-  m_Layer: 0
-  m_Name: DevBootstrap
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1332626272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1332626271}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10c178777285ea847901a7d8f4c61194, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player1Default: ivan
-  player2Default: sidon
-  sidonSprite: {fileID: 3106083578899928171, guid: 18d15105b51c67c4f8b329e50cf3e436, type: 3}
-  ivanSprite: {fileID: -1388705384132567281, guid: aee255836b4383c4b80f67bc93401053, type: 3}
-  quanSprite: {fileID: 5192957241305207599, guid: c80d8c506bba4a74fbc62dd224c264c2, type: 3}
-  yasserSprite: {fileID: 3898995933321035545, guid: 2c056f13737c1be4b9dab40ec53a24d3, type: 3}
-  sidonController: {fileID: 9100000, guid: 982500b90b8007943a96ab1391eba728, type: 2}
-  ivanController: {fileID: 9100000, guid: b96ffcfbf5896f44f854c7e5ecefc18d, type: 2}
-  quanController: {fileID: 9100000, guid: 6a83c2014e72aef489ac8c8acd39af69, type: 2}
-  yasserController: {fileID: 9100000, guid: 91eaa2109a57d8946b4df0e5ba03c4c9, type: 2}
---- !u!4 &1332626273
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1332626271}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.23191, y: -2.54797, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1350707498
 GameObject:
   m_ObjectHideFlags: 0
@@ -1006,7 +952,7 @@ GameObject:
   - component: {fileID: 1350707499}
   - component: {fileID: 1350707500}
   - component: {fileID: 1350707501}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: KickHitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1086,7 +1032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 936a49eb1a96284478d4e138b7541cb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 7
+  damage: 30
   hitSfx: punch
 --- !u!1 &1378727564
 GameObject:
@@ -1238,7 +1184,7 @@ GameObject:
   - component: {fileID: 1708335979}
   - component: {fileID: 1708335978}
   - component: {fileID: 1708335977}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player_Keyboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1522,7 +1468,7 @@ GameObject:
   - component: {fileID: 1995027253}
   - component: {fileID: 1995027254}
   - component: {fileID: 1995027255}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PunchHitbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1951,7 +1897,7 @@ GameObject:
   - component: {fileID: 6097402897533872100}
   - component: {fileID: 4698149468279293872}
   - component: {fileID: 2399027849457776274}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player_Joystick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2800,6 +2746,5 @@ SceneRoots:
   - {fileID: 2907901030335858959}
   - {fileID: 1708335982}
   - {fileID: 1107403868}
-  - {fileID: 1332626273}
   - {fileID: 474115}
   - {fileID: 109570216}
