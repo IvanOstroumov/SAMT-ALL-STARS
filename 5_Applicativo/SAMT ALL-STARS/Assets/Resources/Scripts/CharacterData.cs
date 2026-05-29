@@ -3,10 +3,11 @@ using UnityEngine;
 
 namespace Resources.Scripts
 {
+    // I dati di un personaggio: quello che leggiamo dal JSON.
+
     [Serializable]
     public class CharacterData
     {
-        // [SerializeField] permette a JsonUtility di leggere i campi privati dal JSON
         [SerializeField] private string name;
         [SerializeField] public int maxHp;
         [SerializeField] private float speed;
@@ -16,7 +17,8 @@ namespace Resources.Scripts
         [SerializeField] public float cooldown;
         [SerializeField] public float duration;
 
-        public CharacterData(string name, int maxHp, float speed, string description, int winCount, int gamesPlayed, float cooldown, float duration)
+        public CharacterData(string name, int maxHp, float speed, string description,
+                             int winCount, int gamesPlayed, float cooldown, float duration)
         {
             this.name = name;
             this.maxHp = maxHp;
@@ -41,6 +43,5 @@ namespace Resources.Scripts
         public int GamesPlayed => gamesPlayed;
         public float Cooldown => cooldown;
         public float Duration => duration;
-
     }
 }

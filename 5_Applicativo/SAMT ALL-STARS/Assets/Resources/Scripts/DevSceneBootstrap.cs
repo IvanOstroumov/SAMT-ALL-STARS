@@ -1,16 +1,14 @@
 using Resources.Scripts;
 using UnityEngine;
 
-/// <summary>
-/// SOLO PER TEST. Permette di lanciare direttamente la scena Game,
-/// senza passare dalla scena di selezione personaggi.
-///
-/// Mettilo su un GameObject vuoto nella scena Game e assegna nell'Inspector
-/// gli stessi sprite e controller che usi nella scena di selezione.
-///
-/// Se arrivi dalla selezione (flusso normale), questo script si accorge che
-/// i dati ci sono gia e NON fa nulla: puoi lasciarlo anche nel gioco finito.
-/// </summary>
+// SOLO TEST. Permette di lanciare la scena Game in autonomia, saltando
+// la selezione personaggi/mappa. Comodo per provare il gameplay in fretta.
+//
+// Mettilo su un GameObject vuoto della scena Game e assegnagli nell'Inspector
+// gli stessi sprite e controller che usa la scena di selezione.
+//
+// Se invece arrivi dalla selezione (flusso normale), questo script si accorge
+// che i dati ci sono gia' e non fa nulla: puoi lasciarlo dentro anche in build.
 public class DevSceneBootstrap : MonoBehaviour
 {
     [Header("Personaggi di default per il test")]
@@ -29,29 +27,30 @@ public class DevSceneBootstrap : MonoBehaviour
     [SerializeField] private RuntimeAnimatorController quanController;
     [SerializeField] private RuntimeAnimatorController yasserController;
 
-    // Awake gira PRIMA di tutti gli Start, quindi prima che PlayerController.Start
-    // legga GameManager.Instance e le PlayerPrefs: il setup è pronto in tempo.
+    // Awake e non Start: gira prima di tutti gli Start, in particolare prima
+    // che PlayerController.Start vada a leggere GameManager.Instance e le PlayerPrefs.
+    // Cosi quando il player parte, trova tutto il setup gia' pronto.
     private void Awake()
     {
-        // 1) Mi assicuro che esista un GameManager.
-        //    Il suo Awake crea il CharacterManager. Se vengo dalla selezione
-        //    esiste gia grazie al DontDestroyOnLoad, quindi non ne creo un altro.
+        // 1) Mi assicuro che esista un GameManager. Il suo Awake crea il CharacterManager.
+        //    Se vengo dalla selezione esiste gia' (DontDestroyOnLoad), e non ne creo un altro.
         if (GameManager.Instance == null)
         {
             GameObject gm = new GameObject("GameManager (Dev)");
-            gm.AddComponent<GameManager>(); // AddComponent fa partire subito il suo Awake
+            gm.AddComponent<GameManager>();
+            LogManager.Info("DevSceneBootstrap: creato GameManager al volo (test mode)");
         }
 
         CharacterManager cm = GameManager.Instance.characterManager;
 
-        // 2) Se i personaggi sono gia popolati (vengo dalla selezione) esco subito:
-        //    non sovrascrivo la scelta vera del giocatore.
+        // 2) Se trovo gia' sprite assegnati (= vengo dalla selezione vera) esco.
+        //    Non voglio sovrascrivere la scelta del giocatore.
         Character probe = cm.getCharByName("ivan");
         if (probe != null && probe.Sprite != null) return;
 
-        // --- Da qui in poi: ho lanciato la scena Game DA SOLA, faccio il setup di test ---
+        LogManager.Info("DevSceneBootstrap: avvio diretto della scena Game, popolo dati di default");
 
-        // 3) Popolo sprite e controller, esattamente come fa CharacterSelection.
+        // 3) Da qui sono in modalita' test: popolo sprite e controller di tutti i 4 personaggi.
         cm.getCharByName("sidon").Sprite = sidonSprite;
         cm.getCharByName("ivan").Sprite = ivanSprite;
         cm.getCharByName("quan").Sprite = quanSprite;
@@ -62,8 +61,8 @@ public class DevSceneBootstrap : MonoBehaviour
         cm.getCharByName("quan").Controller = quanController;
         cm.getCharByName("yasser").Controller = yasserController;
 
-        // 4) Forzo i due personaggi di default, cosi il test e sempre prevedibile
-        //    anche se in passato avevi gia salvato una scelta nelle PlayerPrefs.
+        // 4) Forzo i due default. Sovrascrive qualunque scelta precedente nelle PlayerPrefs
+        //    cosi il test e' sempre prevedibile.
         PlayerPrefs.SetString("Player1", player1Default);
         PlayerPrefs.SetString("Player2", player2Default);
     }

@@ -1,5 +1,8 @@
 using UnityEngine;
 
+// Script di prova per il movimento orizzontale + flip dello sprite.
+// Versione semplificata che usavo nel sandbox: il movimento vero del gioco
+// e' dentro PlayerController.
 public class Movimento : MonoBehaviour
 {
     public float velocita = 5f;
@@ -16,10 +19,10 @@ public class Movimento : MonoBehaviour
     {
         float inputX = Input.GetAxisRaw("Horizontal");
 
-        // Muove il personaggio
         rb.linearVelocity = new Vector2(inputX * velocita, rb.linearVelocity.y);
 
-        // Gira il personaggio in base alla direzione
+        // Flip: scala X positiva = guarda a destra, negativa = guarda a sinistra.
+        // Mathf.Abs preserva la grandezza, cambia solo il segno.
         if (inputX > 0)
         {
             transform.localScale = new Vector3(
@@ -36,6 +39,5 @@ public class Movimento : MonoBehaviour
                 transform.localScale.z
             );
         }
-
     }
 }

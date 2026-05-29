@@ -1,5 +1,8 @@
 using UnityEngine;
 
+// Script di test per le animazioni dei calci. Lo lanciavo nella scena di prova
+// per vedere se i trigger dell'Animator partivano. Nel gameplay vero non e' usato:
+// il combat sta dentro PlayerController.
 public class Calci : MonoBehaviour
 {
     private Animator anim;
@@ -12,13 +15,13 @@ public class Calci : MonoBehaviour
 
     void Update()
     {
-        // CALCIO IN AVANTI — K a terra
+        // Calcio in avanti (a terra).
         if (Input.GetKeyDown(KeyCode.K))
         {
             anim.SetTrigger("CalcioAvanti");
         }
 
-        // CALCIO IN GIÙ — K in aria
+        // Calcio verso il basso (in aria).
         if (Input.GetKeyDown(KeyCode.S))
         {
             anim.SetTrigger("CalcioGiu");

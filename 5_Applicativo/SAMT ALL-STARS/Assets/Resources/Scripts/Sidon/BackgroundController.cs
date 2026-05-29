@@ -1,10 +1,11 @@
 using System.Collections.Generic;
 using Resources.Scripts;
 using UnityEngine;
-using UnityEngine.UI;
 
+// Sta sul background della scena Game. Legge la mappa scelta in PlayerPrefs e mette lo sprite giusto. Funziona insieme al MapManager che fa da indice.
 public class BackgroundController : MonoBehaviour
 {
+<<<<<<< Updated upstream
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public Sprite sidonBackground;
     public Sprite sidonTeil;
@@ -32,10 +33,30 @@ public class BackgroundController : MonoBehaviour
         }
 
     }
+=======
+    public Sprite sidon;
+    public Sprite ivan;
+    public Sprite quan;
+    public Sprite yasser;
 
-    // Update is called once per frame
-    void Update()
+    private MapManager mapManager;
+    private SpriteRenderer spriteRenderer;
+    private string imageName;
+
+    void Start()
     {
-        
+        mapManager = new MapManager(sidon, quan, yasser, ivan);
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        imageName = PlayerPrefs.GetString("Map");
+>>>>>>> Stashed changes
+
+        Map chosen = mapManager.getMapByName(imageName);
+        if (chosen == null)
+        {
+            LogManager.Error($"BackgroundController: mappa '{imageName}' non trovata");
+            return;
+        }
+
+        spriteRenderer.sprite = chosen.Image;
     }
 }

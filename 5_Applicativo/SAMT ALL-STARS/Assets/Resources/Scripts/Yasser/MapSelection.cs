@@ -1,20 +1,15 @@
-using Resources.Scripts;
 using System;
-using System.Xml.Schema;
-using UnityEditor.SearchService;
+using Resources.Scripts;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
+// Script di scelta della mappa che salva la mappa scelta in PlayerPrefs
 public class MapSelection : MonoBehaviour
 {
     public static String selectedMap;
+    
+    public static GameObject sidon, ivan, yasser, quan;
 
-    public static GameObject sidon,ivan,yasser,quan;
-
-
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         selectedMap = string.Empty;
@@ -25,43 +20,51 @@ public class MapSelection : MonoBehaviour
         hider();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (!String.IsNullOrEmpty(selectedMap)){
+        // Tasto di conferma: Invio sulla tastiera, X (Joystick1Button1) sul pad.
+        if (!String.IsNullOrEmpty(selectedMap))
+        {
             if (Input.GetKeyDown(KeyCode.Return) | Input.GetKeyDown(KeyCode.Joystick1Button1))
             {
+                LogManager.Info($"Mappa confermata: {selectedMap}");
                 PlayerPrefs.SetString("Map", selectedMap);
                 SceneManager.LoadScene("CharacterSelection");
             }
         }
     }
 
-
+    // Questi metodi vengono chiamati dai Button della UI tramite OnClick.
     public static void selectSidon()
     {
         selectedMap = "sidon";
         hider();
         sidon.SetActive(true);
     }
+
     public static void selectQuan()
     {
         selectedMap = "quan";
         hider();
         quan.SetActive(true);
     }
+
     public static void selectIvan()
     {
         selectedMap = "ivan";
         hider();
         ivan.SetActive(true);
     }
+
     public static void selectYasser()
     {
         selectedMap = "yasser";
-        hider(); 
+        hider();
         yasser.SetActive(true);
     }
+
+    // Spegne tutte le anteprime. Lo chiamiamo prima di accendere quella scelta,
+    // cosi ne resta visibile sempre solo una.
     private static void hider()
     {
         sidon.SetActive(false);
