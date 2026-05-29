@@ -8,7 +8,7 @@ namespace Resources.Scripts
     {
         // [SerializeField] permette a JsonUtility di leggere i campi privati dal JSON
         [SerializeField] private string name;
-        [SerializeField] private int maxHp;
+        [SerializeField] public int maxHp;
         [SerializeField] private float speed;
         [SerializeField] private string description;
         [SerializeField] private int winCount;
@@ -32,7 +32,7 @@ namespace Resources.Scripts
         public int MaxHp => maxHp;
         public float Speed => speed;
         public string Description => description;
-        public int WinCount => winCount;
+        public int WinCount { get; set; }
         public int GamesPlayed => gamesPlayed;
         public float Cooldown => cooldown;
         public float Duration => duration;

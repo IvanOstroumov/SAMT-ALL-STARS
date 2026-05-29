@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     private Character character;
     private InputType inputType;
     private string playerName;
+    private string opponentName;
 
     private static readonly int IsJumping = Animator.StringToHash("IsJumping");
     private static readonly int OnGround = Animator.StringToHash("OnGround");
@@ -111,13 +112,16 @@ public class PlayerController : MonoBehaviour
         {
             inputType = InputType.Controller;
             playerName = "Player2";
+            opponentName = "Player1";
             nameText = GameObject.Find("Player_2").GetComponent<TextMeshProUGUI>();
             hpText =  GameObject.Find("Hp_Player_2").GetComponent<TextMeshProUGUI>();
         }
         else 
         {
+            Debug.Log("ci entra");
             inputType = InputType.Keyboard;
             playerName = "Player1";
+            opponentName = "Player2";
             nameText = GameObject.Find("Player_1").GetComponent<TextMeshProUGUI>();
             hpText =  GameObject.Find("Hp_Player_1").GetComponent<TextMeshProUGUI>();
         }
@@ -133,7 +137,8 @@ public class PlayerController : MonoBehaviour
         animator.runtimeAnimatorController = character.Controller;
         spriteRenderer.sprite = character.Sprite;
         nameText.text = character.Data.Name;
-        hpText.text = character.Data.MaxHp + "Hp";
+        character.CurrentHp = character.Data.maxHp;
+        hpText.text = character.CurrentHp + "Hp";
     }
 
     void Update()
@@ -256,10 +261,11 @@ public class PlayerController : MonoBehaviour
         canDash = true;
     }
 
-    public void TakeDamage(int damage)
+    private void TakeDamage(int damage)
     {
         character.CurrentHp -= damage;
-        Debug.Log($"{base.gameObject.name} ha {character.CurrentHp} HP");
+        
+        Debug.Log($"{character.Data.Name} ha {character.CurrentHp} HP");
 
         if (character.CurrentHp <= 0) Die();
         hpText.text = character.CurrentHp + "Hp";
@@ -267,9 +273,9 @@ public class PlayerController : MonoBehaviour
 
     private void Die()
     {
-        Debug.Log($"{base.gameObject.name} è morto!");
-        // Quando un player muore, la partita è vinta: faccio partire il suono di vittoria.
-        AudioManager.Instance.PlaySFX("win");
+        PlayerPrefs.SetString("Loser", character.Data.Name);
+        PlayerPrefs.SetString("Winner", PlayerPrefs.GetString(opponentName, defaultCharacter));
+        UIManager.openPostMatch();
     }
     
     private void OnEnableKeyboard() => keyboard.Gameplay.Enable();

@@ -1,5 +1,6 @@
 ﻿using UnityEditor.Animations;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Resources.Scripts
 {
@@ -13,15 +14,16 @@ namespace Resources.Scripts
         private RuntimeAnimatorController controller;
         private Sprite sprite;
 
-        public Character(CharacterData data, int currentHp, Ability ability, float duration, float cooldown, RuntimeAnimatorController controller, Sprite sprite)
+        public Character(CharacterData data, Ability ability, float duration, float cooldown, RuntimeAnimatorController controller, Sprite sprite, Sprite nameImage)
         {
             this.data = data;
-            this.currentHp = currentHp;
+            this.currentHp = data.maxHp;
             this.ability = ability;
             this.duration = duration;
             this.cooldown = cooldown;
             this.controller = controller;
             this.sprite = sprite;
+            this.NameImage = nameImage;
         }
 
         public CharacterData Data => data;
@@ -35,7 +37,6 @@ namespace Resources.Scripts
         public float Cooldown => cooldown;
         public RuntimeAnimatorController Controller { get; set; }
         public Sprite Sprite { get; set; }
-
-
+        public Sprite  NameImage { get; set;}
     }
 }

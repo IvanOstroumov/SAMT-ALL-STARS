@@ -50,7 +50,7 @@ namespace Resources.Scripts
             
             foreach (CharacterData data in jsonList.characters)
             {
-                Character character = new Character(data, data.MaxHp, null, data.duration, data.cooldown,null,null);
+                Character character = new Character(data, null, data.duration, data.cooldown,null,null,null);
                 characters.Add(character);
             }
         }

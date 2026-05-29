@@ -40,6 +40,10 @@ namespace Resources.Scripts
             SceneManager.LoadScene("MainMenu");
         }
 
+        public static void openPostMatch()
+        {
+            SceneManager.LoadScene("PostMatch");
+        }
         public static void quit()
         {
             #if UnityEditor

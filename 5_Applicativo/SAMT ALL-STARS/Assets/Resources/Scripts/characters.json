@@ -2,7 +2,7 @@
   "characters": [
     {
       "name": "quan",
-      "maxHp": 200,
+      "maxHp": 10,
       "speed": 1.1,
       "description": "Ghosting: diventa un fantasmino per 0.25s, non subisce danni.",
       "winCount": 0,

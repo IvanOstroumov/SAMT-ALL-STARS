@@ -1250,16 +1250,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3fc6ee47abba626428b6c87d25be8fc3, type: 3}
+  m_Script: {fileID: 11500000, guid: a7cdb732e9309034db5d54773415137e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mixer: {fileID: 24100000, guid: b06b47ee1bd574c43a9f1eefecbc319e, type: 2}
+  mixer: {fileID: 24100000, guid: 7e59c328e8b47b844a948766e63fcfe2, type: 2}
   masterSlider: {fileID: 1139885279}
   musicSlider: {fileID: 1328510114}
   sfxSlider: {fileID: 1224372736}
   voiceSlider: {fileID: 1495040069}
   keyboardButton: {fileID: 639178803}
-  keyboardButtonClicked: {fileID: 1052401886}
+  keyboardButtonClicked: {fileID: 228045280}
   keboardImage: {fileID: 415590679}
   keyCodeImage: {fileID: 1648027577}
   controllerButton: {fileID: 47396976}
