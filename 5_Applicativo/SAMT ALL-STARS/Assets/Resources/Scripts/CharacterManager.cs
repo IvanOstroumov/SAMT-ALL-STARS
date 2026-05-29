@@ -54,6 +54,28 @@ namespace Resources.Scripts
                 characters.Add(character);
             }
         }
+        
+        public void saveCharsToJSON()
+        {
+            CharacterDataList dataList = new CharacterDataList();
+
+            List<CharacterData> datas = new List<CharacterData>();
+
+            foreach (Character character in characters)
+            {
+                datas.Add(character.Data);
+            }
+
+            dataList.characters = datas.ToArray();
+
+            string json = JsonUtility.ToJson(dataList, true);
+
+            string path = Application.dataPath + "/Resources/Scripts/characters.json";
+
+            System.IO.File.WriteAllText(path, json);
+
+            Debug.Log("JSON salvato in: " + path);
+        }
 
         // Wrapper per JsonUtility — contiene l'array di CharacterData
         [Serializable]

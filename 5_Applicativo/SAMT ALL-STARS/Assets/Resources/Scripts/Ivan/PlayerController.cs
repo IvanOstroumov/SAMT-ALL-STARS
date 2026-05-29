@@ -232,6 +232,11 @@ public class PlayerController : MonoBehaviour
             animator.SetBool(IsJumping, false);
             animator.SetBool(OnGround, onGround);
         }
+
+        if (other.gameObject.layer == LayerMask.NameToLayer("Empty"))
+        {
+            Die();
+        }
     }
     
     public void OnCollisionExit2D(Collision2D other)
@@ -242,21 +247,27 @@ public class PlayerController : MonoBehaviour
             animator.SetBool(OnGround, onGround);
         }
     }
-
     private IEnumerator Dash()
     {
         canDash = false;
         isDashing = true;
         AudioManager.Instance.PlaySFX("dash");
         animator.SetBool(IsDashing, isDashing);
+
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
+
         float direction = transform.localScale.x < 0 ? -1f : 1f;
         rb.linearVelocity = new Vector2(direction * dashPower, 0f);
+
         yield return new WaitForSeconds(dashTime);
+
+        rb.linearVelocity = new Vector2(0f, 0f);
+
         rb.gravityScale = originalGravity;
         isDashing = false;
         animator.SetBool(IsDashing, isDashing);
+
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
     }
@@ -275,6 +286,8 @@ public class PlayerController : MonoBehaviour
     {
         PlayerPrefs.SetString("Loser", character.Data.Name);
         PlayerPrefs.SetString("Winner", PlayerPrefs.GetString(opponentName, defaultCharacter));
+        gamepad.Disable();
+        keyboard.Disable();
         UIManager.openPostMatch();
     }
     

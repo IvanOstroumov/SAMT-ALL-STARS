@@ -32,7 +32,12 @@ namespace Resources.Scripts
         public int MaxHp => maxHp;
         public float Speed => speed;
         public string Description => description;
-        public int WinCount { get; set; }
+        public int WinCount
+        {
+            get => winCount;
+            set => winCount = value;
+        }
+
         public int GamesPlayed => gamesPlayed;
         public float Cooldown => cooldown;
         public float Duration => duration;
